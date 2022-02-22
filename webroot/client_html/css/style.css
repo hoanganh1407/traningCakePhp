@@ -1,0 +1,136 @@
+/* LabelApps shopTemplate Style  
+ * General Settings
+ * ========================================================================== */
+.bx-viewport {
+	overflow:visible !important;
+}
+.label_image {
+	position: absolute !important;
+		top: 5px;
+		left: 5px;
+	height:45px;
+	width: 45px;
+	z-index: 900 !important;
+	background: transparent !important;
+}
+
+/* Template Name : sp 
+ * ========================================================================== */
+
+.label_image.sp {
+	background: transparent;
+	height:50px;
+	position: absolute !important;
+	width: 50px;
+	z-index: 1000 !important;
+	background: transparent;
+}
+
+#p_shopTop .label_image.sp {
+	left: 2px;
+	top: 3px;
+}
+#p_shopItemDetail .label_image.sp {
+	left: 12px;
+	top: 2px;
+	padding: 0 !important;
+}
+
+#itemSlider > ul li > div {
+	position:relative;
+} 
+
+/* Template Name : shop0 
+ * ========================================================================== */
+
+.item_lists .image_container{
+	overflow:visible !important;
+}
+ul.bxslider > li > .img_box {
+	position:relative !important;
+}
+ul.bxslider > li > .img_box > .label_image.detail {
+	z-index:5;
+}
+/* Template Name : shop1 
+ * ========================================================================== */
+
+.img_box > a{
+	position:relative;
+} 
+
+/* Template Name : shop2 
+ * ========================================================================== */
+#content {
+
+}
+.item-container {
+	overflow:visible !important;
+}
+
+/* Template Name : shop3 
+ * ========================================================================== */
+.img-block {
+	position:relative;
+}
+.img-block > .label_image {
+	position:absolute;
+}
+.item-box .img-block {
+	overflow:visible;
+}
+.item-box{
+	overflow:visible;
+}
+body.tempTop section.item_list {
+	overflow:visible;
+}
+/* Template Name : shop4 
+ * ========================================================================== */
+#products ul.item_top li.product_list, #products ul.item_top li.product_list a{
+	overflow:visible !important;
+}
+#products ul.item_lists li.product_list, #products ul.item_lists li.product_list a{
+	overflow:visible !important;
+}
+.item_lists li {
+	overflow:visible !important;
+}
+/* Template Name : shop5 
+ * ========================================================================== */
+a > .img_box{
+	position:relative;
+} 
+.item_box section .img_box {
+	overflow:visible;
+}
+
+/* Template Name : shop7
+ * ========================================================================== */
+li.column > a > .image_container {
+	position:relative;
+}
+.product_list li {
+	overflow:visible !important;
+}
+.product_list .image_container {
+	overflow:visible !important;
+}
+
+/* Template Name : shop8
+ * ========================================================================== */
+
+
+/* Template Name : shop9
+ * ========================================================================== */
+body#shopTopPage .item .itemImg {
+	overflow:visible !important;
+}
+.item.part > .itemImg {
+	position:relative;
+}
+/* Template Name : shop10
+ * ========================================================================== */
+.itemImg.boxLeft{
+	position:relative;
+}
