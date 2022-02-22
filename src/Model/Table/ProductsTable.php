@@ -39,11 +39,9 @@ class ProductsTable extends Table
     public function initialize(array $config): void
     {
         parent::initialize($config);
-
         $this->setTable('products');
         $this->setDisplayField('name');
         $this->setPrimaryKey('id');
-
         $this->belongsTo('Categories', [
             'foreignKey' => 'category_id',
             'joinType' => 'INNER',
@@ -63,21 +61,17 @@ class ProductsTable extends Table
         $validator
             ->uuid('id')
             ->allowEmptyString('id', null, 'create');
-
         $validator
             ->scalar('name')
             ->maxLength('name', 255)
             ->requirePresence('name', 'create')
             ->notEmptyString('name');
-
         $validator
             ->dateTime('created_at')
             ->allowEmptyDateTime('created_at');
-
         $validator
             ->dateTime('updated_at')
             ->allowEmptyDateTime('updated_at');
-
         return $validator;
     }
 
@@ -90,8 +84,6 @@ class ProductsTable extends Table
      */
     public function buildRules(RulesChecker $rules): RulesChecker
     {
-        // $rules->add($rules->existsIn('category_id', 'Categories'), ['errorField' => 'category_id']);
-
         return $rules;
     }
 }

@@ -39,12 +39,9 @@ class CategoriesTable extends Table
     public function initialize(array $config): void
     {
         parent::initialize($config);
-
         $this->setTable('categories');
         $this->setDisplayField('name');
         $this->setPrimaryKey('id');
-
-        
     }
 
     /**
@@ -58,26 +55,21 @@ class CategoriesTable extends Table
         $validator
             ->uuid('id')
             ->allowEmptyString('id', null, 'create');
-
         $validator
             ->scalar('name')
             ->maxLength('name', 255)
             ->requirePresence('name', 'create')
             ->notEmptyString('name');
-
         $validator
             ->dateTime('created_at')
             ->allowEmptyDateTime('created_at');
-
         $validator
             ->dateTime('updated_at')
             ->allowEmptyDateTime('updated_at');
-
         $validator
             ->scalar('images')
             ->maxLength('images', 255)
             ->allowEmptyFile('images');
-
         return $validator;
     }
 
@@ -90,8 +82,6 @@ class CategoriesTable extends Table
      */
     public function buildRules(RulesChecker $rules): RulesChecker
     {
-        // $rules->add($rules->existsIn('parent_id', 'ParentCategories'), ['errorField' => 'parent_id']);
-
         return $rules;
     }
 }

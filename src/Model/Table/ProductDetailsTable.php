@@ -39,11 +39,9 @@ class ProductDetailsTable extends Table
     public function initialize(array $config): void
     {
         parent::initialize($config);
-
         $this->setTable('product_details');
         $this->setDisplayField('id');
         $this->setPrimaryKey('id');
-
         $this->belongsTo('Products', [
             'foreignKey' => 'product_id',
             'joinType' => 'INNER',
@@ -51,7 +49,7 @@ class ProductDetailsTable extends Table
         $this->hasMany('AttributeProducts', [
             'foreignKey' => 'product_detail_id',
         ]);
-        // $this->belongsToMany('AttributeProducts',['joinTable'=>'attribute_products','foreignKey' => 'product_detail_id']);
+        $this->belongsToMany('AttributeProducts',['joinTable'=>'attribute_products']);
     }
 
     /**
@@ -65,38 +63,30 @@ class ProductDetailsTable extends Table
         $validator
             ->uuid('id')
             ->allowEmptyString('id', null, 'create');
-
         $validator
             ->integer('code')
             ->allowEmptyString('code');
-
         $validator
             ->decimal('price')
             ->requirePresence('price', 'create')
             ->notEmptyString('price');
-
         $validator
             ->integer('quantity')
             ->requirePresence('quantity', 'create')
             ->notEmptyString('quantity');
-
         $validator
             ->scalar('description')
             ->allowEmptyString('description');
-
         $validator
             ->scalar('image')
             ->maxLength('image', 255)
             ->allowEmptyFile('image');
-
         $validator
             ->dateTime('created_at')
             ->allowEmptyDateTime('created_at');
-
         $validator
             ->dateTime('updated_at')
             ->allowEmptyDateTime('updated_at');
-
         return $validator;
     }
 
@@ -110,7 +100,6 @@ class ProductDetailsTable extends Table
     public function buildRules(RulesChecker $rules): RulesChecker
     {
         $rules->add($rules->existsIn('product_id', 'Products'), ['errorField' => 'product_id']);
-
         return $rules;
     }
 }

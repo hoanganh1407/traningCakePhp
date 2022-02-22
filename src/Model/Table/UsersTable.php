@@ -40,11 +40,10 @@ class UsersTable extends Table
     public function initialize(array $config): void
     {
         parent::initialize($config);
-        
         $this->setTable('users');
         $this->setPrimaryKey('id');
         $this->addBehavior('Timestamp');
-        
+
     }
 
     /**
@@ -58,54 +57,43 @@ class UsersTable extends Table
         $validator
             ->uuid('id')
             ->allowEmptyString('id', null, 'create');
-
         $validator
             ->scalar('name')
             ->maxLength('name', 255)
             ->requirePresence('name', 'create')
             ->notEmptyString('name');
-
         $validator
             ->email('email')
             ->requirePresence('email', 'create')
             ->notEmptyString('email')
             ->add('email', 'unique', ['rule' => 'validateUnique', 'provider' => 'table']);
-
         $validator
             ->scalar('password')
             ->maxLength('password', 255)
             ->requirePresence('password', 'create')
             ->notEmptyString('password');
-
         $validator
             ->notEmptyString('is_admin');
-
         $validator
             ->notEmptyString('active');
-
         $validator
             ->scalar('remember_token')
             ->maxLength('remember_token', 100)
             ->allowEmptyString('remember_token');
-
         $validator
             ->dateTime('created_at')
             ->allowEmptyDateTime('created_at');
-
         $validator
             ->dateTime('updated_at')
             ->allowEmptyDateTime('updated_at');
-
         $validator
             ->scalar('phone')
             ->maxLength('phone', 255)
             ->allowEmptyString('phone');
-
         $validator
             ->scalar('token_forgot_password')
             ->maxLength('token_forgot_password', 255)
             ->allowEmptyString('token_forgot_password');
-
         return $validator;
     }
 
@@ -119,7 +107,6 @@ class UsersTable extends Table
     public function buildRules(RulesChecker $rules): RulesChecker
     {
         $rules->add($rules->isUnique(['email']), ['errorField' => 'email']);
-
         return $rules;
     }
 }

@@ -36,13 +36,9 @@ class AttributesTable extends Table
     public function initialize(array $config): void
     {
         parent::initialize($config);
-
         $this->setTable('attributes');
         $this->setDisplayField('name');
         $this->setPrimaryKey('id');
-
-        // $this->belongsToMany('AttributeProducts');
-
     }
 
     /**
@@ -56,20 +52,16 @@ class AttributesTable extends Table
         $validator
             ->uuid('id')
             ->allowEmptyString('id', null, 'create');
-
         $validator
             ->scalar('name')
             ->maxLength('name', 255)
             ->allowEmptyString('name');
-
         $validator
             ->dateTime('updated_at')
             ->allowEmptyDateTime('updated_at');
-
         $validator
             ->dateTime('created_at')
             ->allowEmptyDateTime('created_at');
-
         return $validator;
     }
 }

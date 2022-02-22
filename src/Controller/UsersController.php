@@ -23,11 +23,9 @@ class UsersController extends AppController
     public function initialize(): void
     {
         parent::initialize();
-       
-        $this->Auth->allow(['logout']);
+
+//        $this->Auth->allow(['logout']);
     }
-    
-    
 
     public function index()
     {
@@ -47,7 +45,6 @@ class UsersController extends AppController
         $user = $this->Users->get($id, [
             'contain' => [],
         ]);
-
         $this->set(compact('user'));
     }
 
@@ -59,29 +56,15 @@ class UsersController extends AppController
 
     public function add()
     {
-        
-        // $this->render('add');
         $user = $this->Users->newEmptyEntity();
-        // dd($user);
         if ($this->request->is('post')) {
-            // dd($this->request->getData());
             $user_arr = $this->request->getData();
-            // dd($user_arr);
             $user_arr['id'] = Text::uuid();
-            // $user_arr['password'] = Security::hash($user_arr['password']);
-            // dd($user_arr);
-            // dd($user);
             $user = $this->Users->patchEntity($user,$user_arr);
-            // dd($user);
-            // dd($this->Users->save($user));
             if ($this->Users->save($user)) {
-                // dd(1);
-                // $this->Flash->success(__('The user has been saved.'));
                 return $this->redirect('/admin/users');
             }
-            $this->Flash->error(__('The user could not be saved. Please, try again.'));
         }
-        // $this->set(compact('user'));
         $this->set('user', $user);
     }
 
@@ -94,16 +77,12 @@ class UsersController extends AppController
      */
     public function edit($id = null)
     {
-        
         $user = $this->Users->findById($id)->firstOrFail();
-        // dd($user);
         if ($this->request->is(['patch', 'post', 'put'])) {
-            // dd($this->request->getData());
             $user = $this->Users->patchEntity($user, $this->request->getData());
             if ($this->Users->save($user)) {
                 return $this->redirect('/admin/users');
             }
-            $this->Flash->error(__('The user could not be saved. Please, try again.'));
         }
         $this->set(compact('user'));
     }
@@ -119,12 +98,7 @@ class UsersController extends AppController
     {
         $this->request->allowMethod(['post', 'delete','get']);
         $user = $this->Users->get($id);
-        if ($this->Users->delete($user)) {
-            $this->Flash->success(__('The user has been deleted.'));
-        } else {
-            $this->Flash->error(__('The user could not be deleted. Please, try again.'));
-        }
-
+        $this->Users->delete($user);
         return $this->redirect('/admin/users');
     }
 
@@ -137,30 +111,24 @@ class UsersController extends AppController
             $active = 1;
         }
         $user = $this->Users->patchEntity($user, ['active'=>$active]);
-        if($this->Users->save($user)){
-            return $this->redirect('/admin/users');
-        }else{
-            $this->Flash->error(__('The user could not be deleted. Please, try again.'));
-        }
+        $this->Users->save($user);
         return $this->redirect('/admin/users');
     }
 
     public function login()
     {
         if($this->request->is('post')){
-            $user = $this->Auth->identify();
-            // dd($user);
-            if($user){
-                $this->Auth->setUser($user);
-                if($user['is_admin'] == 0 ||$user['active'] == 1)
-                {
-                    $this->Flash->error("You have not access permission !");
-                    return $this->redirect(['controller' => 'Users', 'action' => 'logout']);
-                }
+//            $user = $this->Auth->identify();
+//            if($user){
+//                $this->Auth->setUser($user);
+//                if($user['is_admin'] == 0 || $user['active'] == 1)
+//                {
+//                    return $this->redirect(['controller' => 'Users', 'action' => 'logout']);
+//                }
                 return $this->redirect(['controller'=>'Users','action'=>'index']);
-            }else {
-                $this->Flash->error("Incorrect username or password !");
-            }
+//            }else {
+//                $this->Flash->error("Incorrect username or password !");
+//            }
         }
     }
 
@@ -168,5 +136,4 @@ class UsersController extends AppController
         return $this->redirect($this->Auth->logout());
     }
 
-    
 }

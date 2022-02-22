@@ -84,7 +84,7 @@
                         <button class="button-menu-mobile open-left">
                             <i class="fa fa-bars"></i>
                         </button>
-                        <h1 class="title">Form Validation</h1> 
+                        <h1 class="title">Form Validation</h1>
                         <ul class="nav navbar-nav navbar-right top-navbar">
                             <li>
                                 <!-- Search form -->
@@ -264,7 +264,7 @@
                             </ul>
                         </li>
 
-                       
+
 
                         <li class='has_sub'><a href='javascript:void(0);'><i class="fa fa-th"></i> <span>Blog</span>
                                 <span class="pull-right"><i class="fa fa-angle-down"></i></span> </a>
@@ -275,10 +275,10 @@
 
                         <li class='has_sub'><a href='javascript:void(0);'><i class="fa fa-check-square-o"></i> <span>Product</span> <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
                             <ul>
-                              <li><a href='/admin/products'><span>List Product</span></a></li>
+                              <li><a href='/admin/product'><span>List Product</span></a></li>
                                 <li><a href='/admin/attribute'><span>List Attribute</span></a></li>
                                 <li><a href='/admin/category'><span>List Category</span></a></li>
-                                <li><a href='/admin/orders'><span>List Order</span></a></li>
+                                <li><a href='/admin/order'><span>List Order</span></a></li>
                             </ul>
                           </li>
 

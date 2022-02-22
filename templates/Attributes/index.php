@@ -30,12 +30,12 @@ $this->layout = 'adminmaster';
         <form role="form">
         <input type="text" class="form-control" placeholder="Search...">
         </form>
-        
+
     </div>
     <div class="col-md-8">
         <div class="toolbar-btn-action">
-            <a class="btn btn-success" href="/admin/category/create" ><i class="fa fa-plus-circle"></i> Add new</a>
-            
+            <a class="btn btn-success" href="/admin/attribute/create" ><i class="fa fa-plus-circle"></i> Add new</a>
+
         </div>
     </div>
     </div>
@@ -54,7 +54,7 @@ $this->layout = 'adminmaster';
     <tbody>
     <?php foreach ($attributes as $key=>$value): ?>
         <tr>
-            
+
                 <td><?= (++$key) ?></td>
                 <td><strong><?= ($value->name) ?></strong></td>
                 <td>
@@ -65,9 +65,9 @@ $this->layout = 'adminmaster';
                 </td>
         </tr>
         <?php endforeach ?>
-    
-       
-        
+
+
+
     </tbody>
     </table>
     </div>

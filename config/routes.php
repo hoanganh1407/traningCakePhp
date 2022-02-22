@@ -24,9 +24,6 @@
 use Cake\Routing\Route\DashedRoute;
 use Cake\Routing\Route\Route;
 use Cake\Routing\RouteBuilder;
-use Cake\Routing\Router;
-use Cake\Http\Middleware\CsrfProtectionMiddleware;
-use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 
 return static function (RouteBuilder $routes) {
     /*
@@ -50,33 +47,39 @@ return static function (RouteBuilder $routes) {
 
 
 
-    Router::prefix('client', function (RouteBuilder $routes) {
-        $routes->connect('/', ['controller' => 'Products', 'action' => 'index']);
-        $routes->connect('/get_product_by_id/:id', ['controller' => 'Products', 'action' => 'getProductByCategory'],["pass" => ["id"]]);
-        $routes->connect('/product_detail/:id', ['controller' => 'Products', 'action' => 'getDetailProduct'],["pass" => ["id"]]);
-        $routes->setExtensions(['json', 'xml']);
-        $routes->fallbacks(DashedRoute::class);
+    $routes->scope('/', function (RouteBuilder $builder) {
+        /*
+         * Here, we are connecting '/' (base path) to a controller called 'Pages',
+         * its action called 'display', and we pass a param to select the view file
+         * to use (in this case, templates/Pages/home.php)...
+         */
+        $builder->connect('/', ['controller' => 'Pages', 'action' => 'display', 'home']);
+
+        /*
+         * ...and connect the rest of 'Pages' controller's URLs.
+         */
+        $builder->connect('/pages/*', 'Pages::display');
+
+
+        /*
+         * Connect catchall routes for all controllers.
+         *
+         * The `fallbacks` method is a shortcut for
+         *
+         * ```
+         * $builder->connect('/{controller}', ['action' => 'index']);
+         * $builder->connect('/{controller}/{action}/*', []);
+         * ```
+         *
+         * You can remove these routes once you've connected the
+         * routes you want in your application.
+         */
+        // $builder->fallbacks();
     });
 
-    // $routes->scope('client', function (RouteBuilder $routes) {
-    //     $routes->connect('/', ['controller' => 'Products', 'action' => 'index']);
-    //     $routes->setExtensions(['json', 'xml']);
-    // });
-
-    // $routes->scope('/api', function (RouteBuilder $builder) {
-    //     $builder->setExtensions(['json', 'xml']);
-    //     $builder->connect('/', ['controller' => 'Api', 'action' => 'getAllProduct']);
-    // });
-
-    
-
-   
-
-//route Admin
     $routes->scope('/admin' , function (RouteBuilder $builder) {
         $builder->connect('/users', 'users::index');
         $builder->connect('/users/create', 'users::add');
-        // $builder->connect('/users/edit/:id', 'users::edit');
         $builder->connect('/users/edit/:id', ['controller' => 'Users', 'action' => 'edit'],["pass" => ["id"]]);
         $builder->connect('/users/delete/:id', ['controller' => 'Users', 'action' => 'delete'],["pass" => ["id"]]);
         $builder->connect('/users/lock/:id', ['controller' => 'Users', 'action' => 'lock'],["pass" => ["id"]]);
@@ -89,7 +92,6 @@ return static function (RouteBuilder $routes) {
         $builder->connect('/create', 'categories::add');
         $builder->connect('/edit/:id', ['controller' => 'Categories', 'action' => 'edit'],["pass" => ["id"]]);
         $builder->connect('/delete/:id', ['controller' => 'Categories', 'action' => 'delete'],["pass" => ["id"]]);
-        
     });
 
     $routes->scope('/admin/attribute' , function (RouteBuilder $builder) {
@@ -97,23 +99,18 @@ return static function (RouteBuilder $routes) {
         $builder->connect('/create', 'attributes::add');
         $builder->connect('/edit/{id}', ['controller' => 'Attributes', 'action' => 'edit'],["pass" => ["id"]]);
         $builder->connect('/delete/:id', ['controller' => 'Attributes', 'action' => 'delete'],["pass" => ["id"]]);
-        
     });
 
     $routes->scope('/admin/product' , function (RouteBuilder $builder) {
         $builder->connect('/', 'products::index');
         $builder->connect('/create', 'products::add');
         $builder->connect('/edit/:id', ['controller' => 'Products', 'action' => 'edit'],["pass" => ["id"]]);
-        // $builder->connect('/delete/:id', ['controller' => 'Attributes', 'action' => 'delete'],["pass" => ["id"]]);
-        
     });
 
     $routes->scope('/admin/order' , function (RouteBuilder $builder) {
         $builder->connect('/', 'orders::index');
         $builder->connect('/edit/:id', ['controller' => 'Orders', 'action' => 'edit'],["pass" => ["id"]]);
     });
-
-    
 
     /*
      * If you need a different set of middleware or none at all,

@@ -38,7 +38,6 @@ class ProductDetailsController extends AppController
         $productDetail = $this->ProductDetails->get($id, [
             'contain' => ['Products', 'AttributeProducts'],
         ]);
-
         $this->set(compact('productDetail'));
     }
 
@@ -53,11 +52,8 @@ class ProductDetailsController extends AppController
         if ($this->request->is('post')) {
             $productDetail = $this->ProductDetails->patchEntity($productDetail, $this->request->getData());
             if ($this->ProductDetails->save($productDetail)) {
-                $this->Flash->success(__('The product detail has been saved.'));
-
                 return $this->redirect(['action' => 'index']);
             }
-            $this->Flash->error(__('The product detail could not be saved. Please, try again.'));
         }
         $products = $this->ProductDetails->Products->find('list', ['limit' => 200])->all();
         $this->set(compact('productDetail', 'products'));
@@ -78,11 +74,8 @@ class ProductDetailsController extends AppController
         if ($this->request->is(['patch', 'post', 'put'])) {
             $productDetail = $this->ProductDetails->patchEntity($productDetail, $this->request->getData());
             if ($this->ProductDetails->save($productDetail)) {
-                $this->Flash->success(__('The product detail has been saved.'));
-
                 return $this->redirect(['action' => 'index']);
             }
-            $this->Flash->error(__('The product detail could not be saved. Please, try again.'));
         }
         $products = $this->ProductDetails->Products->find('list', ['limit' => 200])->all();
         $this->set(compact('productDetail', 'products'));
@@ -99,12 +92,7 @@ class ProductDetailsController extends AppController
     {
         $this->request->allowMethod(['post', 'delete']);
         $productDetail = $this->ProductDetails->get($id);
-        if ($this->ProductDetails->delete($productDetail)) {
-            $this->Flash->success(__('The product detail has been deleted.'));
-        } else {
-            $this->Flash->error(__('The product detail could not be deleted. Please, try again.'));
-        }
-
+        $this->ProductDetails->delete($productDetail);
         return $this->redirect(['action' => 'index']);
     }
 }

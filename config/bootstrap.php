@@ -163,7 +163,7 @@ ConnectionManager::setConfig(Configure::consume('Datasources'));
 TransportFactory::setConfig(Configure::consume('EmailTransport'));
 Mailer::setConfig(Configure::consume('Email'));
 Log::setConfig(Configure::consume('Log'));
-Security::setSalt(Configure::consume('Security.salt'));
+Security::setSalt("12345");
 
 /*
  * Setup detectors for mobile and tablet.

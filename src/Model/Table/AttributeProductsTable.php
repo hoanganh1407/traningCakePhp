@@ -39,11 +39,9 @@ class AttributeProductsTable extends Table
     public function initialize(array $config): void
     {
         parent::initialize($config);
-
         $this->setTable('attribute_products');
         $this->setDisplayField('id');
         $this->setPrimaryKey('id');
-
         $this->belongsTo('Attributes', [
             'foreignKey' => 'attribute_id',
         ]);
@@ -76,7 +74,6 @@ class AttributeProductsTable extends Table
         $validator
             ->dateTime('created_at')
             ->allowEmptyDateTime('created_at');
-
         return $validator;
     }
 
@@ -91,7 +88,6 @@ class AttributeProductsTable extends Table
     {
         $rules->add($rules->existsIn('attribute_id', 'Attributes'), ['errorField' => 'attribute_id']);
         $rules->add($rules->existsIn('product_detail_id', 'ProductDetails'), ['errorField' => 'product_detail_id']);
-
         return $rules;
     }
 }

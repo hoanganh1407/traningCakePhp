@@ -17,7 +17,6 @@ class CategoriesController extends AppController
         $category = $this->Categories->get($id, [
             'contain' => [],
         ]);
-
         $this->set(compact('category'));
     }
 
@@ -28,12 +27,10 @@ class CategoriesController extends AppController
         if ($this->request->is('post')) {
             $category_arr = $this->request->getData();
             $category_arr['id'] = Text::uuid();
-            
             $category = $this->Categories->patchEntity($category, $this->request->getData());
             if ($this->Categories->save($category)) {
                 return $this->redirect('/admin/category');
             }
-            $this->Flash->error(__('The category could not be saved. Please, try again.'));
         }
         $this->set(compact('category', 'categories_parent'));
     }
@@ -47,7 +44,6 @@ class CategoriesController extends AppController
             if ($this->Categories->save($category)) {
                 return $this->redirect('/admin/category');
             }
-            $this->Flash->error(__('The category could not be saved. Please, try again.'));
         }
         $this->set(compact('category','categories_parent'));
     }
@@ -56,11 +52,7 @@ class CategoriesController extends AppController
     {
         $this->request->allowMethod(['post', 'delete','get']);
         $category = $this->Categories->get($id);
-        if ($this->Categories->delete($category)) {
-            return $this->redirect('/admin/category');
-        } else {
-            $this->Flash->error(__('The category could not be deleted. Please, try again.'));
-        }
+        $this->Categories->delete($category);
         return $this->redirect('/admin/category');
     }
 }
