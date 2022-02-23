@@ -1,7 +1,6 @@
 # app
 /tmp/*
 /logs/*
-/config/app_local.php
 /config/bootstrap.local.php
 
 
