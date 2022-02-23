@@ -1047,3 +1047,977 @@ Referer URL: http://localhost:8765/admin/login
 Client IP: 127.0.0.1
 
 
+2022-02-23 09:32:45 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2022-02-23 09:32:45 error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Sqlite cannot be used due to a missing PHP extension or unmet dependency. Requested by connection "test" in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Database/Connection.php on line 198
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Sqlite',
+  'name' => 'test',
+)
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Database/Connection.php:142
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Datasource/ConnectionRegistry.php:89
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php:110
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php:204
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/debug_kit/src/Panel/SqlLogPanel.php:53
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/debug_kit/src/ToolbarService.php:220
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+
+
+2022-02-23 09:58:36 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2022-02-23 09:58:36 error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Sqlite cannot be used due to a missing PHP extension or unmet dependency. Requested by connection "test" in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Database/Connection.php on line 198
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Sqlite',
+  'name' => 'test',
+)
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Database/Connection.php:142
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Datasource/ConnectionRegistry.php:89
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php:110
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php:204
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/debug_kit/src/Panel/SqlLogPanel.php:53
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/debug_kit/src/ToolbarService.php:220
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+
+
+2022-02-23 10:09:06 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2022-02-23 10:09:06 error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Sqlite cannot be used due to a missing PHP extension or unmet dependency. Requested by connection "test" in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Database/Connection.php on line 198
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Sqlite',
+  'name' => 'test',
+)
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Database/Connection.php:142
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Datasource/ConnectionRegistry.php:89
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php:110
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php:204
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/debug_kit/src/Panel/SqlLogPanel.php:53
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/debug_kit/src/ToolbarService.php:220
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+
+
+2022-02-23 10:09:08 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2022-02-23 10:09:08 error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Sqlite cannot be used due to a missing PHP extension or unmet dependency. Requested by connection "test" in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Database/Connection.php on line 198
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Sqlite',
+  'name' => 'test',
+)
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Database/Connection.php:142
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Datasource/ConnectionRegistry.php:89
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php:110
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php:204
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/debug_kit/src/Panel/SqlLogPanel.php:53
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/debug_kit/src/ToolbarService.php:220
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+
+
+2022-02-23 10:14:36 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2022-02-23 10:14:36 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2022-02-23 10:14:36 warning: The datasource configuration "debug_kit" was not found.
+2022-02-23 10:14:36 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2022-02-23 10:14:36 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/login_admi_html/vendor/jquery/jquery-3.2.1.min.js" could not be found. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Exception Attributes: array (
+  'url' => '/login_admi_html/vendor/jquery/jquery-3.2.1.min.js',
+)
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /login_admi_html/vendor/jquery/jquery-3.2.1.min.js
+Referer URL: http://localhost:8765/admin/login
+Client IP: 127.0.0.1
+
+
+2022-02-23 10:14:36 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2022-02-23 10:14:36 warning: The datasource configuration "debug_kit" was not found.
+2022-02-23 10:14:36 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2022-02-23 10:14:36 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/login_admi_html/vendor/bootstrap/js/bootstrap.min.js" could not be found. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Exception Attributes: array (
+  'url' => '/login_admi_html/vendor/bootstrap/js/bootstrap.min.js',
+)
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /login_admi_html/vendor/bootstrap/js/bootstrap.min.js
+Referer URL: http://localhost:8765/admin/login
+Client IP: 127.0.0.1
+
+
+2022-02-23 10:14:36 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2022-02-23 10:14:36 warning: The datasource configuration "debug_kit" was not found.
+2022-02-23 10:14:36 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2022-02-23 10:14:36 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/login_admi_html/vendor/bootstrap/js/popper.js" could not be found. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Exception Attributes: array (
+  'url' => '/login_admi_html/vendor/bootstrap/js/popper.js',
+)
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /login_admi_html/vendor/bootstrap/js/popper.js
+Referer URL: http://localhost:8765/admin/login
+Client IP: 127.0.0.1
+
+
+2022-02-23 10:14:36 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2022-02-23 10:14:36 warning: The datasource configuration "debug_kit" was not found.
+2022-02-23 10:14:36 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2022-02-23 10:14:36 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/login_admi_html/vendor/animsition/js/animsition.min.js" could not be found. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Exception Attributes: array (
+  'url' => '/login_admi_html/vendor/animsition/js/animsition.min.js',
+)
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /login_admi_html/vendor/animsition/js/animsition.min.js
+Referer URL: http://localhost:8765/admin/login
+Client IP: 127.0.0.1
+
+
+2022-02-23 10:14:36 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2022-02-23 10:14:36 warning: The datasource configuration "debug_kit" was not found.
+2022-02-23 10:14:36 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2022-02-23 10:14:36 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/login_admi_html/vendor/select2/select2.min.js" could not be found. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Exception Attributes: array (
+  'url' => '/login_admi_html/vendor/select2/select2.min.js',
+)
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /login_admi_html/vendor/select2/select2.min.js
+Referer URL: http://localhost:8765/admin/login
+Client IP: 127.0.0.1
+
+
+2022-02-23 10:14:36 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2022-02-23 10:14:36 warning: The datasource configuration "debug_kit" was not found.
+2022-02-23 10:14:36 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2022-02-23 10:14:36 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/login_admi_html/vendor/daterangepicker/moment.min.js" could not be found. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Exception Attributes: array (
+  'url' => '/login_admi_html/vendor/daterangepicker/moment.min.js',
+)
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /login_admi_html/vendor/daterangepicker/moment.min.js
+Referer URL: http://localhost:8765/admin/login
+Client IP: 127.0.0.1
+
+
+2022-02-23 10:14:36 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2022-02-23 10:14:36 warning: The datasource configuration "debug_kit" was not found.
+2022-02-23 10:14:36 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2022-02-23 10:14:36 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/login_admi_html/vendor/daterangepicker/daterangepicker.js" could not be found. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Exception Attributes: array (
+  'url' => '/login_admi_html/vendor/daterangepicker/daterangepicker.js',
+)
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /login_admi_html/vendor/daterangepicker/daterangepicker.js
+Referer URL: http://localhost:8765/admin/login
+Client IP: 127.0.0.1
+
+
+2022-02-23 10:14:36 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2022-02-23 10:14:36 warning: The datasource configuration "debug_kit" was not found.
+2022-02-23 10:14:36 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2022-02-23 10:14:36 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/login_admi_html/vendor/countdowntime/countdowntime.js" could not be found. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Exception Attributes: array (
+  'url' => '/login_admi_html/vendor/countdowntime/countdowntime.js',
+)
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /login_admi_html/vendor/countdowntime/countdowntime.js
+Referer URL: http://localhost:8765/admin/login
+Client IP: 127.0.0.1
+
+
+2022-02-23 10:14:36 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2022-02-23 10:14:36 warning: The datasource configuration "debug_kit" was not found.
+2022-02-23 10:14:36 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2022-02-23 10:14:36 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/login_admi_html/js/main.js" could not be found. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Exception Attributes: array (
+  'url' => '/login_admi_html/js/main.js',
+)
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /login_admi_html/js/main.js
+Referer URL: http://localhost:8765/admin/login
+Client IP: 127.0.0.1
+
+
+2022-02-23 10:14:36 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2022-02-23 10:14:36 warning: The datasource configuration "debug_kit" was not found.
+2022-02-23 10:14:36 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2022-02-23 10:14:36 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/login_html/images/1bf1dc6a8760790fb55d5c1c48b448cb.png" could not be found. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Exception Attributes: array (
+  'url' => '/login_html/images/1bf1dc6a8760790fb55d5c1c48b448cb.png',
+)
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /login_html/images/1bf1dc6a8760790fb55d5c1c48b448cb.png
+Referer URL: http://localhost:8765/admin/login
+Client IP: 127.0.0.1
+
+
+2022-02-23 10:14:36 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2022-02-23 10:14:36 warning: The datasource configuration "debug_kit" was not found.
+2022-02-23 10:14:36 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2022-02-23 10:14:36 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/login_admi_html/vendor/bootstrap/js/popper.js" could not be found. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Exception Attributes: array (
+  'url' => '/login_admi_html/vendor/bootstrap/js/popper.js',
+)
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /login_admi_html/vendor/bootstrap/js/popper.js
+Referer URL: http://localhost:8765/admin/login
+Client IP: 127.0.0.1
+
+
+2022-02-23 10:14:36 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2022-02-23 10:14:36 warning: The datasource configuration "debug_kit" was not found.
+2022-02-23 10:14:36 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2022-02-23 10:14:36 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/login_admi_html/vendor/bootstrap/js/bootstrap.min.js" could not be found. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Exception Attributes: array (
+  'url' => '/login_admi_html/vendor/bootstrap/js/bootstrap.min.js',
+)
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /login_admi_html/vendor/bootstrap/js/bootstrap.min.js
+Referer URL: http://localhost:8765/admin/login
+Client IP: 127.0.0.1
+
+
+2022-02-23 10:14:36 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2022-02-23 10:14:36 warning: The datasource configuration "debug_kit" was not found.
+2022-02-23 10:14:36 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2022-02-23 10:14:36 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/login_admi_html/vendor/select2/select2.min.js" could not be found. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Exception Attributes: array (
+  'url' => '/login_admi_html/vendor/select2/select2.min.js',
+)
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /login_admi_html/vendor/select2/select2.min.js
+Referer URL: http://localhost:8765/admin/login
+Client IP: 127.0.0.1
+
+
+2022-02-23 10:14:36 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2022-02-23 10:14:36 warning: The datasource configuration "debug_kit" was not found.
+2022-02-23 10:14:36 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2022-02-23 10:14:36 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/login_admi_html/vendor/daterangepicker/moment.min.js" could not be found. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Exception Attributes: array (
+  'url' => '/login_admi_html/vendor/daterangepicker/moment.min.js',
+)
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /login_admi_html/vendor/daterangepicker/moment.min.js
+Referer URL: http://localhost:8765/admin/login
+Client IP: 127.0.0.1
+
+
+2022-02-23 10:14:36 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2022-02-23 10:14:36 warning: The datasource configuration "debug_kit" was not found.
+2022-02-23 10:14:36 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2022-02-23 10:14:36 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/login_admi_html/vendor/daterangepicker/daterangepicker.js" could not be found. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Exception Attributes: array (
+  'url' => '/login_admi_html/vendor/daterangepicker/daterangepicker.js',
+)
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /login_admi_html/vendor/daterangepicker/daterangepicker.js
+Referer URL: http://localhost:8765/admin/login
+Client IP: 127.0.0.1
+
+
+2022-02-23 10:14:36 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2022-02-23 10:14:36 warning: The datasource configuration "debug_kit" was not found.
+2022-02-23 10:14:36 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2022-02-23 10:14:36 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/login_admi_html/vendor/countdowntime/countdowntime.js" could not be found. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Exception Attributes: array (
+  'url' => '/login_admi_html/vendor/countdowntime/countdowntime.js',
+)
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /login_admi_html/vendor/countdowntime/countdowntime.js
+Referer URL: http://localhost:8765/admin/login
+Client IP: 127.0.0.1
+
+
+2022-02-23 10:14:36 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2022-02-23 10:14:36 warning: The datasource configuration "debug_kit" was not found.
+2022-02-23 10:14:36 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2022-02-23 10:14:36 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/login_admi_html/js/main.js" could not be found. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Exception Attributes: array (
+  'url' => '/login_admi_html/js/main.js',
+)
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /login_admi_html/js/main.js
+Referer URL: http://localhost:8765/admin/login
+Client IP: 127.0.0.1
+
+
+2022-02-23 10:14:36 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2022-02-23 10:14:36 warning: The datasource configuration "debug_kit" was not found.
+2022-02-23 10:14:41 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2022-02-23 10:14:41 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2022-02-23 10:14:41 warning: The datasource configuration "debug_kit" was not found.
+2022-02-23 10:14:41 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2022-02-23 10:14:41 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/login_admi_html/vendor/jquery/jquery-3.2.1.min.js" could not be found. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Exception Attributes: array (
+  'url' => '/login_admi_html/vendor/jquery/jquery-3.2.1.min.js',
+)
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /login_admi_html/vendor/jquery/jquery-3.2.1.min.js
+Referer URL: http://localhost:8765/admin/login
+Client IP: 127.0.0.1
+
+
+2022-02-23 10:14:41 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2022-02-23 10:14:41 warning: The datasource configuration "debug_kit" was not found.
+2022-02-23 10:14:41 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2022-02-23 10:14:41 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/login_admi_html/vendor/bootstrap/js/popper.js" could not be found. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Exception Attributes: array (
+  'url' => '/login_admi_html/vendor/bootstrap/js/popper.js',
+)
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /login_admi_html/vendor/bootstrap/js/popper.js
+Referer URL: http://localhost:8765/admin/login
+Client IP: 127.0.0.1
+
+
+2022-02-23 10:14:41 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2022-02-23 10:14:41 warning: The datasource configuration "debug_kit" was not found.
+2022-02-23 10:14:41 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2022-02-23 10:14:41 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/login_admi_html/vendor/animsition/js/animsition.min.js" could not be found. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Exception Attributes: array (
+  'url' => '/login_admi_html/vendor/animsition/js/animsition.min.js',
+)
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /login_admi_html/vendor/animsition/js/animsition.min.js
+Referer URL: http://localhost:8765/admin/login
+Client IP: 127.0.0.1
+
+
+2022-02-23 10:14:41 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2022-02-23 10:14:41 warning: The datasource configuration "debug_kit" was not found.
+2022-02-23 10:14:41 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2022-02-23 10:14:41 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/login_admi_html/vendor/bootstrap/js/bootstrap.min.js" could not be found. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Exception Attributes: array (
+  'url' => '/login_admi_html/vendor/bootstrap/js/bootstrap.min.js',
+)
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /login_admi_html/vendor/bootstrap/js/bootstrap.min.js
+Referer URL: http://localhost:8765/admin/login
+Client IP: 127.0.0.1
+
+
+2022-02-23 10:14:41 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2022-02-23 10:14:41 warning: The datasource configuration "debug_kit" was not found.
+2022-02-23 10:14:41 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2022-02-23 10:14:41 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/login_admi_html/vendor/select2/select2.min.js" could not be found. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Exception Attributes: array (
+  'url' => '/login_admi_html/vendor/select2/select2.min.js',
+)
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /login_admi_html/vendor/select2/select2.min.js
+Referer URL: http://localhost:8765/admin/login
+Client IP: 127.0.0.1
+
+
+2022-02-23 10:14:41 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2022-02-23 10:14:41 warning: The datasource configuration "debug_kit" was not found.
+2022-02-23 10:14:41 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2022-02-23 10:14:41 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/login_admi_html/vendor/daterangepicker/moment.min.js" could not be found. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Exception Attributes: array (
+  'url' => '/login_admi_html/vendor/daterangepicker/moment.min.js',
+)
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /login_admi_html/vendor/daterangepicker/moment.min.js
+Referer URL: http://localhost:8765/admin/login
+Client IP: 127.0.0.1
+
+
+2022-02-23 10:14:41 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2022-02-23 10:14:41 warning: The datasource configuration "debug_kit" was not found.
+2022-02-23 10:14:41 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2022-02-23 10:14:41 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/login_admi_html/vendor/daterangepicker/daterangepicker.js" could not be found. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Exception Attributes: array (
+  'url' => '/login_admi_html/vendor/daterangepicker/daterangepicker.js',
+)
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /login_admi_html/vendor/daterangepicker/daterangepicker.js
+Referer URL: http://localhost:8765/admin/login
+Client IP: 127.0.0.1
+
+
+2022-02-23 10:14:41 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2022-02-23 10:14:41 warning: The datasource configuration "debug_kit" was not found.
+2022-02-23 10:14:41 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2022-02-23 10:14:41 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/login_admi_html/vendor/countdowntime/countdowntime.js" could not be found. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Exception Attributes: array (
+  'url' => '/login_admi_html/vendor/countdowntime/countdowntime.js',
+)
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /login_admi_html/vendor/countdowntime/countdowntime.js
+Referer URL: http://localhost:8765/admin/login
+Client IP: 127.0.0.1
+
+
+2022-02-23 10:14:41 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2022-02-23 10:14:41 warning: The datasource configuration "debug_kit" was not found.
+2022-02-23 10:14:41 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2022-02-23 10:14:41 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/login_admi_html/js/main.js" could not be found. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Exception Attributes: array (
+  'url' => '/login_admi_html/js/main.js',
+)
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /login_admi_html/js/main.js
+Referer URL: http://localhost:8765/admin/login
+Client IP: 127.0.0.1
+
+
+2022-02-23 10:14:41 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2022-02-23 10:14:41 warning: The datasource configuration "debug_kit" was not found.
+2022-02-23 10:14:41 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2022-02-23 10:14:41 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/login_html/images/1bf1dc6a8760790fb55d5c1c48b448cb.png" could not be found. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Exception Attributes: array (
+  'url' => '/login_html/images/1bf1dc6a8760790fb55d5c1c48b448cb.png',
+)
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /login_html/images/1bf1dc6a8760790fb55d5c1c48b448cb.png
+Referer URL: http://localhost:8765/admin/login
+Client IP: 127.0.0.1
+
+
+2022-02-23 10:14:41 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2022-02-23 10:14:41 warning: The datasource configuration "debug_kit" was not found.
+2022-02-23 10:14:41 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2022-02-23 10:14:41 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/login_admi_html/vendor/bootstrap/js/popper.js" could not be found. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Exception Attributes: array (
+  'url' => '/login_admi_html/vendor/bootstrap/js/popper.js',
+)
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /login_admi_html/vendor/bootstrap/js/popper.js
+Referer URL: http://localhost:8765/admin/login
+Client IP: 127.0.0.1
+
+
+2022-02-23 10:14:41 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2022-02-23 10:14:41 warning: The datasource configuration "debug_kit" was not found.
+2022-02-23 10:14:41 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2022-02-23 10:14:41 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/login_admi_html/vendor/bootstrap/js/bootstrap.min.js" could not be found. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Exception Attributes: array (
+  'url' => '/login_admi_html/vendor/bootstrap/js/bootstrap.min.js',
+)
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /login_admi_html/vendor/bootstrap/js/bootstrap.min.js
+Referer URL: http://localhost:8765/admin/login
+Client IP: 127.0.0.1
+
+
+2022-02-23 10:14:41 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2022-02-23 10:14:41 warning: The datasource configuration "debug_kit" was not found.
+2022-02-23 10:14:41 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2022-02-23 10:14:41 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/login_admi_html/vendor/select2/select2.min.js" could not be found. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Exception Attributes: array (
+  'url' => '/login_admi_html/vendor/select2/select2.min.js',
+)
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /login_admi_html/vendor/select2/select2.min.js
+Referer URL: http://localhost:8765/admin/login
+Client IP: 127.0.0.1
+
+
+2022-02-23 10:14:41 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2022-02-23 10:14:41 warning: The datasource configuration "debug_kit" was not found.
+2022-02-23 10:14:41 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2022-02-23 10:14:41 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/login_admi_html/vendor/daterangepicker/moment.min.js" could not be found. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Exception Attributes: array (
+  'url' => '/login_admi_html/vendor/daterangepicker/moment.min.js',
+)
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /login_admi_html/vendor/daterangepicker/moment.min.js
+Referer URL: http://localhost:8765/admin/login
+Client IP: 127.0.0.1
+
+
+2022-02-23 10:14:41 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2022-02-23 10:14:41 warning: The datasource configuration "debug_kit" was not found.
+2022-02-23 10:14:41 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2022-02-23 10:14:41 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/login_admi_html/vendor/daterangepicker/daterangepicker.js" could not be found. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Exception Attributes: array (
+  'url' => '/login_admi_html/vendor/daterangepicker/daterangepicker.js',
+)
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /login_admi_html/vendor/daterangepicker/daterangepicker.js
+Referer URL: http://localhost:8765/admin/login
+Client IP: 127.0.0.1
+
+
+2022-02-23 10:14:41 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2022-02-23 10:14:41 warning: The datasource configuration "debug_kit" was not found.
+2022-02-23 10:14:41 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2022-02-23 10:14:41 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/login_admi_html/vendor/countdowntime/countdowntime.js" could not be found. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Exception Attributes: array (
+  'url' => '/login_admi_html/vendor/countdowntime/countdowntime.js',
+)
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /login_admi_html/vendor/countdowntime/countdowntime.js
+Referer URL: http://localhost:8765/admin/login
+Client IP: 127.0.0.1
+
+
+2022-02-23 10:14:41 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2022-02-23 10:14:41 warning: The datasource configuration "debug_kit" was not found.
+2022-02-23 10:14:41 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2022-02-23 10:14:41 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/login_admi_html/js/main.js" could not be found. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Exception Attributes: array (
+  'url' => '/login_admi_html/js/main.js',
+)
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /login_admi_html/js/main.js
+Referer URL: http://localhost:8765/admin/login
+Client IP: 127.0.0.1
+
+
+2022-02-23 10:14:41 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2022-02-23 10:14:41 warning: The datasource configuration "debug_kit" was not found.

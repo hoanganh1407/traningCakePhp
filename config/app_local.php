@@ -15,7 +15,7 @@ return [
      * Development Mode:
      * true: Errors and warnings shown.
      */
-    'debug' => filter_var(env('DEBUG', false), FILTER_VALIDATE_BOOLEAN),
+    'debug' => filter_var(env('DEBUG', true), FILTER_VALIDATE_BOOLEAN),
 
     /*
      * Security and encryption configuration
@@ -43,7 +43,7 @@ return [
              * the following line and set the port accordingly
              */
             //'port' => 'non_standard_port_number',
-
+            'port' => 3309,
             'username' => 'root',
             'password' => '123456',
 
@@ -64,13 +64,21 @@ return [
          * The test connection is used during the test suite.
          */
         'test' => [
+            'className' => 'Cake\Database\Connection',
+            'driver' => 'Cake\Database\Driver\Mysql',
+            'persistent' => false,
             'host' => 'localhost',
             //'port' => 'non_standard_port_number',
             'username' => 'my_app',
-            'password' => 'secret',
+            'password' => '',
             'database' => 'test_myapp',
-            //'schema' => 'myapp',
-            'url' => env('DATABASE_TEST_URL', 'sqlite://127.0.0.1/tests.sqlite'),
+            'encoding' => 'utf8',
+            'timezone' => 'UTC',
+            'cacheMetadata' => true,
+            'quoteIdentifiers' => false,
+            'log' => false,
+            //'init' => ['SET GLOBAL innodb_stats_on_metadata = 0'],
+            'url' => env('DATABASE_TEST_URL', null),
         ],
     ],
 
