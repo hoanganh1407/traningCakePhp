@@ -321,3 +321,339 @@ Referer URL: http://localhost:8765/admin/login
 Client IP: 127.0.0.1
 
 
+2022-02-23 07:43:50 error: [Cake\Http\Exception\NotFoundException] Please replace templates/Pages/home.php with your own version or re-enable debug mode. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/templates/Pages/home.php on line 45
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/View/View.php:1181
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/View/View.php:1138
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/View/View.php:769
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Controller/Controller.php:762
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/src/Controller/PagesController.php:65
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:164
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /
+Client IP: 127.0.0.1
+
+
+2022-02-23 07:44:02 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/login_admi_html/vendor/jquery/jquery-3.2.1.min.js" could not be found. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /login_admi_html/vendor/jquery/jquery-3.2.1.min.js
+Referer URL: http://localhost:8765/admin/login
+Client IP: 127.0.0.1
+
+
+2022-02-23 07:44:02 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/login_admi_html/vendor/daterangepicker/moment.min.js" could not be found. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /login_admi_html/vendor/daterangepicker/moment.min.js
+Referer URL: http://localhost:8765/admin/login
+Client IP: 127.0.0.1
+
+
+2022-02-23 07:44:02 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/login_admi_html/vendor/animsition/js/animsition.min.js" could not be found. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /login_admi_html/vendor/animsition/js/animsition.min.js
+Referer URL: http://localhost:8765/admin/login
+Client IP: 127.0.0.1
+
+
+2022-02-23 07:44:02 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/login_admi_html/vendor/bootstrap/js/popper.js" could not be found. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /login_admi_html/vendor/bootstrap/js/popper.js
+Referer URL: http://localhost:8765/admin/login
+Client IP: 127.0.0.1
+
+
+2022-02-23 07:44:02 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/login_admi_html/vendor/bootstrap/js/bootstrap.min.js" could not be found. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /login_admi_html/vendor/bootstrap/js/bootstrap.min.js
+Referer URL: http://localhost:8765/admin/login
+Client IP: 127.0.0.1
+
+
+2022-02-23 07:44:02 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/login_admi_html/vendor/select2/select2.min.js" could not be found. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /login_admi_html/vendor/select2/select2.min.js
+Referer URL: http://localhost:8765/admin/login
+Client IP: 127.0.0.1
+
+
+2022-02-23 07:44:02 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/login_admi_html/vendor/daterangepicker/daterangepicker.js" could not be found. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /login_admi_html/vendor/daterangepicker/daterangepicker.js
+Referer URL: http://localhost:8765/admin/login
+Client IP: 127.0.0.1
+
+
+2022-02-23 07:44:02 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/login_admi_html/vendor/countdowntime/countdowntime.js" could not be found. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /login_admi_html/vendor/countdowntime/countdowntime.js
+Referer URL: http://localhost:8765/admin/login
+Client IP: 127.0.0.1
+
+
+2022-02-23 07:44:02 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/login_admi_html/js/main.js" could not be found. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /login_admi_html/js/main.js
+Referer URL: http://localhost:8765/admin/login
+Client IP: 127.0.0.1
+
+
+2022-02-23 07:44:02 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/login_html/images/1bf1dc6a8760790fb55d5c1c48b448cb.png" could not be found. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /login_html/images/1bf1dc6a8760790fb55d5c1c48b448cb.png
+Referer URL: http://localhost:8765/admin/login
+Client IP: 127.0.0.1
+
+
+2022-02-23 07:44:02 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/login_admi_html/vendor/bootstrap/js/popper.js" could not be found. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /login_admi_html/vendor/bootstrap/js/popper.js
+Referer URL: http://localhost:8765/admin/login
+Client IP: 127.0.0.1
+
+
+2022-02-23 07:44:02 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/login_admi_html/vendor/bootstrap/js/bootstrap.min.js" could not be found. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /login_admi_html/vendor/bootstrap/js/bootstrap.min.js
+Referer URL: http://localhost:8765/admin/login
+Client IP: 127.0.0.1
+
+
+2022-02-23 07:44:02 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/login_admi_html/vendor/select2/select2.min.js" could not be found. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /login_admi_html/vendor/select2/select2.min.js
+Referer URL: http://localhost:8765/admin/login
+Client IP: 127.0.0.1
+
+
+2022-02-23 07:44:02 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/login_admi_html/vendor/daterangepicker/moment.min.js" could not be found. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /login_admi_html/vendor/daterangepicker/moment.min.js
+Referer URL: http://localhost:8765/admin/login
+Client IP: 127.0.0.1
+
+
+2022-02-23 07:44:02 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/login_admi_html/vendor/daterangepicker/daterangepicker.js" could not be found. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /login_admi_html/vendor/daterangepicker/daterangepicker.js
+Referer URL: http://localhost:8765/admin/login
+Client IP: 127.0.0.1
+
+
+2022-02-23 07:44:02 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/login_admi_html/vendor/countdowntime/countdowntime.js" could not be found. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /login_admi_html/vendor/countdowntime/countdowntime.js
+Referer URL: http://localhost:8765/admin/login
+Client IP: 127.0.0.1
+
+
+2022-02-23 07:44:02 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/login_admi_html/js/main.js" could not be found. in /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Stack Trace:
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/anhnh/Project/TrainingCakePhp/aaaa/traningCakePhp/webroot/index.php:40
+
+Request URL: /login_admi_html/js/main.js
+Referer URL: http://localhost:8765/admin/login
+Client IP: 127.0.0.1
+
+
