@@ -49,7 +49,7 @@ return static function (RouteBuilder $routes) {
     $routes->setRouteClass(DashedRoute::class);
 
     $routes->prefix('client', function (RouteBuilder $routes) {
-        $routes->connect('/', ['controller' => 'client/Products', 'action' => 'index']);
+        $routes->connect('/', ['controller' => 'Products', 'action' => 'index']);
         $routes->connect('/register', ['controller' => 'Users', 'action' => 'register']);
         $routes->connect('/login', ['controller' => 'Users', 'action' => 'login']);
         $routes->connect('/logout', ['controller' => 'Users', 'action' => 'logout']);
