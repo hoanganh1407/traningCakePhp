@@ -72,7 +72,7 @@ class UsersController extends AppController
             // dd($user_arr);
             // dd($user);
             $user = $this->Users->patchEntity($user,$user_arr);
-            dd($user);
+            // dd($user);
             // dd($user);
             // dd($this->Users->save($user));
             if ($this->Users->save($user)) {
