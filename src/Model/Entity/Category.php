@@ -30,6 +30,7 @@ class Category extends Entity
      * @var array
      */
     protected $_accessible = [
+        'id' => true,
         'name' => true,
         'parent_id' => true,
         'created_at' => true,

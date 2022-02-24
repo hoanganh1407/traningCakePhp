@@ -30,6 +30,7 @@ class AttributeProduct extends Entity
      * @var array
      */
     protected $_accessible = [
+        'id' => true,
         'attribute_id' => true,
         'value' => true,
         'product_detail_id' => true,

@@ -25,6 +25,7 @@ class Attribute extends Entity
      * @var array
      */
     protected $_accessible = [
+        'id' => true,
         'name' => true,
         'updated_at' => true,
         'created_at' => true,
