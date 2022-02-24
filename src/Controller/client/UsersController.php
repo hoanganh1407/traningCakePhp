@@ -12,8 +12,8 @@ use App\Controller\Client\AppController;
 
 class UsersController extends AppController
 {
-    
-    
+
+
     public function register()
     {
         $user = $this->Users->newEmptyEntity();
@@ -95,14 +95,11 @@ class UsersController extends AppController
         $id_user = $this->Auth->user('id');
         if ($this->request->is('post')) {
             $order_detail = $this->request->getData();
-            // dd($order_detail);
             $check_order = $this->getTableLocator()->get('Orders')->find()->contain(['OrderDetails'])->where(['user_id'=>$id_user])->where(['status'=> 0])->first();
-            // dd(1);
             $price = $this->getTableLocator()->get('ProductDetails')->find()->where(['id'=>$order_detail['product_detail_id']])->first()->price;
             if(!$check_order){
                 $total = $price * $order_detail['quantity'];
                 $order_id = $this->createOrder($id_user, $total);
-                // dd($order);
                 $order_detail['order_id'] = $order_id;
                 $order_detail['price'] = $total;
                 $this->addProduct($order_detail);
@@ -140,7 +137,7 @@ class UsersController extends AppController
                     $check_order = $ordersTable->patchEntity($check_order,  ['total_price'=> $total_price_variant]);
                     $ordersTable->save($check_order);
                 }
-                
+
             }
             return $this->redirect('/client/get_cart');
         }
@@ -162,7 +159,7 @@ class UsersController extends AppController
                         ->values($order_detail)
                         ->execute();
         return $item;
-    
+
     }
 
     public function get_cart()
@@ -171,7 +168,7 @@ class UsersController extends AppController
         $data= $this->getTableLocator()->get('Orders')->find()->contain(['OrderDetails.ProductDetails.AttributeProducts.Attributes'])->where(['user_id'=>$id_user])->first();
         $product_id_arr = [];
         foreach($data->order_details as $order_detail){
-            $product_id_arr[] = $order_detail->product_detail->product_id; 
+            $product_id_arr[] = $order_detail->product_detail->product_id;
         }
         $products = $this->getTableLocator()->get('Products')->find()->where(['id IN'=>$product_id_arr])->all();
         // dd($product);
@@ -199,5 +196,5 @@ class UsersController extends AppController
         $ordersTable->save($order);
         return $this->redirect('/client');
     }
-    
+
 }

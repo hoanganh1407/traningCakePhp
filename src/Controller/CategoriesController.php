@@ -28,8 +28,7 @@ class CategoriesController extends AppController
         if ($this->request->is('post')) {
             $category_arr = $this->request->getData();
             $category_arr['id'] = Text::uuid();
-            
-            $category = $this->Categories->patchEntity($category, $this->request->getData());
+            $category = $this->Categories->patchEntity($category, $category_arr);
             if ($this->Categories->save($category)) {
                 return $this->redirect('/admin/category');
             }

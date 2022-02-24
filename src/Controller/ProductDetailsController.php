@@ -3,6 +3,8 @@ declare(strict_types=1);
 
 namespace App\Controller;
 
+use Cake\Utility\Text;
+
 /**
  * ProductDetails Controller
  *
@@ -51,7 +53,9 @@ class ProductDetailsController extends AppController
     {
         $productDetail = $this->ProductDetails->newEmptyEntity();
         if ($this->request->is('post')) {
-            $productDetail = $this->ProductDetails->patchEntity($productDetail, $this->request->getData());
+            $productDetail_arr = $this->request->getData();
+            $productDetail_arr['id'] = Text::uuid();
+            $productDetail = $this->ProductDetails->patchEntity($productDetail, $productDetail_arr);
             if ($this->ProductDetails->save($productDetail)) {
                 $this->Flash->success(__('The product detail has been saved.'));
 

@@ -3,6 +3,8 @@ declare(strict_types=1);
 
 namespace App\Controller;
 
+use Cake\Utility\Text;
+
 /**
  * Attributes Controller
  *
@@ -22,14 +24,15 @@ class AttributesController extends AppController
         $this->set(compact('attributes'));
     }
 
-    
+
     public function add()
     {
         $attribute = $this->Attributes->newEmptyEntity();
-        
+
         if ($this->request->is('post')) {
-            // dd($this->request->getData());
-            $attribute = $this->Attributes->patchEntity($attribute, $this->request->getData());
+            $attribute_arr = $this->request->getData();
+            $attribute_arr['id'] = Text::uuid();
+            $attribute = $this->Attributes->patchEntity($attribute, $attribute_arr);
             if ($this->Attributes->save($attribute)) {
                 return $this->redirect('/admin/attribute');
             }

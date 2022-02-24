@@ -8,6 +8,7 @@ use Cake\Utility\Security;
 use App\Model\Table\UsersTable;
 use App\Model\Entity\User;
 use App\Controller\AppController;
+
 /**
  * Users Controller
  *
@@ -59,30 +60,16 @@ class UsersController extends AppController
 
     public function add()
     {
-
-        // $this->render('add');
         $user = $this->Users->newEmptyEntity();
-        // dd($user);
         if ($this->request->is('post')) {
-            // dd($this->request->getData());
             $user_arr = $this->request->getData();
-            // dd($user_arr);
             $user_arr['id'] = Text::uuid();
-            // $user_arr['password'] = Security::hash($user_arr['password']);
-            // dd($user_arr);
-            // dd($user);
             $user = $this->Users->patchEntity($user,$user_arr);
-            // dd($user);
-            // dd($user);
-            // dd($this->Users->save($user));
             if ($this->Users->save($user)) {
-                // dd(1);
-                // $this->Flash->success(__('The user has been saved.'));
                 return $this->redirect('/admin/users');
             }
             $this->Flash->error(__('The user could not be saved. Please, try again.'));
         }
-        // $this->set(compact('user'));
         $this->set('user', $user);
     }
 
