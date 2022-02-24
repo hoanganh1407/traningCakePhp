@@ -18,6 +18,8 @@ namespace App\Controller\Client;
 
 use Cake\Controller\Controller;
 
+use function React\Promise\all;
+
 /**
  * Application Controller
  *
@@ -43,6 +45,7 @@ class AppController extends Controller
 
         $this->loadComponent('RequestHandler');
         $this->loadComponent('Flash');
+        
         $this->loadComponent('Auth', [
             'authenticate' => [
             'Form' => [
@@ -61,6 +64,7 @@ class AppController extends Controller
             // If unauthorized, return them to page they were just on
             'unauthorizedRedirect' => $this->referer()
             ]);
+            $this->Auth->allow();
         
 
         /*

@@ -2750,7 +2750,7 @@ $this->layout = 'null';
 
                                                     $('.button_add').html(`<button type="submit" class="purchaseButton__btn purchaseButton__btn--outOfStock purchaseButton__btn--requestRestockMail x_restockMailNotificationModalOpen" disabled>Request restock notification</button>`)
                                                 }else{
-                                                    $('.quantity_value').html(`<label for="amountSelect">Quantity (min: 1 max: ${arr.quantity}) </label> <input type="number" name="order_detail[quantity]" class="quantity" min="1" max="${arr.quantity}">`)
+                                                    $('.quantity_value').html(`<label for="amountSelect">Quantity (min: 1 max: ${arr.quantity}) </label> <input type="number" name="quantity" class="quantity" min="1" max="${arr.quantity}">`)
 
                                                     $('.button_add').html(`<button type="submit" class="purchaseButton__btn purchaseButton__btn--outOfStock purchaseButton__btn--requestRestockMail x_restockMailNotificationModalOpen">Add to cart</button>`)
                                                 }
@@ -2781,7 +2781,7 @@ $this->layout = 'null';
                                                     $('.quantity_value').html('')
                                                 }else{
                                                     $('.button_add').html(`<button type="submit" class="purchaseButton__btn purchaseButton__btn--outOfStock purchaseButton__btn--requestRestockMail x_restockMailNotificationModalOpen">Add to cart</button>`)
-                                                    $('.quantity_value').html(`<label for="amountSelect">Quantity (min: 1 max: ${arr1.quantity}) </label> <input type="number" name="order_detail[quantity]" class="quantity" min="1" max="${arr1.quantity}">`)
+                                                    $('.quantity_value').html(`<label for="amountSelect">Quantity (min: 1 max: ${arr1.quantity}) </label> <input type="number" name="quantity" class="quantity" min="1" max="${arr1.quantity}">`)
 
                                                 }
                                                     // });
@@ -2799,11 +2799,13 @@ $this->layout = 'null';
                         </script>
                         <div style="clear:both;"></div>
                     </div>
-                    <form id="purchase_form" class="x_purchaseForm" name="menu" action="{{route('add-cart')}}" method="post" data-purchase-form="" data-disabled="true">
+                    
+                    <!-- <form id="purchase_form" class="x_purchaseForm" name="menu" action="{{route('add-cart')}}" method="post" data-purchase-form="" data-disabled="true"> -->
+                    <?= $this->Form->create(null,['class' => 'x_purchaseForm','action'=>'/client/cart','id'=>'purchase_form', 'name'=>'menu','data-purchase-form'=>'','data-disabled'=>'true']) ?>
                         <div id="itemSelect">
                             <div id="variationSelectWrap" class="purchaseElement" data-target-version="v2">
                                  <label for="valiationSelect">Variant</label> 
-                                    <select name="order_detail[product_detail_id]" id="valiationSelect" class="product_detail_id" data-display-stock="0">
+                                    <select name="product_detail_id" id="valiationSelect" class="product_detail_id" data-display-stock="0">
                                         <?php foreach($product->product_details as $product_detail): ?>
                                         <option value="<?= $product_detail->id ?>" data-stock="0">
                                             <?php foreach($attributes as $attribute): ?>
@@ -3293,6 +3295,7 @@ $this->layout = 'null';
                             }
                         </style>
                     </form>
+                     
                     <p class="explanation" style="word-wrap: break-word;line-height: 1.5em;" itemprop="description">
 
                     <?php foreach($product->product_details as $product_detail): ?>

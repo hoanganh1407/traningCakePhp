@@ -53,6 +53,7 @@ class User extends Entity
         'commune_id' => true,
         'phone' => true,
         'token_forgot_password' => true,
+        'address' => true,
         'province' => true,
         'district' => true,
         'commune' => true,

@@ -31,7 +31,7 @@ $this->layout = 'adminmaster';
     <form role="form">
     <input type="text" class="form-control" placeholder="Search...">
     </form>
-    
+
 </div>
 
 </div>
@@ -63,15 +63,15 @@ $this->layout = 'adminmaster';
             <?php if($value->product_detail->id == $v->product_detail_id): ?>
             <?= ($v->attribute->name) ?> : <?= ($v->value) ?>
             <?php endif ?>
-        <?php endforeach ?> 
+        <?php endforeach ?>
         </td>
         <td><img src="/img/upload/<?= ($value->product_detail->image)?>"  style="max-height: 80px; max-width: 80px; margin-bottom: 10px;" ></td>
         <td><?= ($value->quantity)?></td>
         <td>
             <div class="btn-group btn-group-xs">
-                <a data-toggle="tooltip" title="Active User" class="btn btn-default" href=""><i class="fa fa-power-off"></i></a>
-                <a data-toggle="tooltip" title="Edit" class="btn btn-default" href=""><i class="fa fa-edit"></i></a>
-                <a data-toggle="tooltip" title="Delete" class="btn btn-default" href=""><i class="fa fa-trash-o"></i></a>
+<!--                <a data-toggle="tooltip" title="Active User" class="btn btn-default" href=""><i class="fa fa-power-off"></i></a>-->
+<!--                <a data-toggle="tooltip" title="Edit" class="btn btn-default" href=""><i class="fa fa-edit"></i></a>-->
+<!--                <a data-toggle="tooltip" title="Delete" class="btn btn-default" href=""><i class="fa fa-trash-o"></i></a>-->
             </div>
         </td>
     </tr>
@@ -82,8 +82,8 @@ $this->layout = 'adminmaster';
 </div>
 
 <div class="form-group">
-    <p>Shipping Cost: <?= $order->shipping_cost ?></p> 
-    <p>Total Price: <?= $order->total_price ?></p> 
+    <p>Shipping Cost: <?= $order->shipping_cost ?></p>
+    <p>Total Price: <?= $order->total_price ?></p>
 </div>
 <div class="widget-content padding">
 <?= $this->Form->create(null,['type'=>'file']) ?>
@@ -95,7 +95,7 @@ $this->layout = 'adminmaster';
                         selected
                     <?php endif ?>
                     value="0">Đang trong giỏ hàng</option>
-                    <option 
+                    <option
                     <?php if($order->status == 1): ?>
                         selected
                         <?php endif ?>
@@ -105,7 +105,7 @@ $this->layout = 'adminmaster';
                         selected
                         <?php endif ?>
                     value="2">Giao Thành công</option>
-                    <option 
+                    <option
                     <?php if($order->status == 3): ?>
                         selected
                         <?php endif ?>
@@ -113,5 +113,5 @@ $this->layout = 'adminmaster';
                 </select>
         </div>
   <button type="submit" class="btn btn-primary">Submit</button>
-  <?= $this->Form->end() ?> 
+  <?= $this->Form->end() ?>
 </div>

@@ -236,7 +236,7 @@
                                 </ul>
                             </li>
                             <li class="right-opener">
-                                <a href="{{ route('logout') }}" class=""><i class="fa fa-power-off"
+                                <a href="/admin/logout" class=""><i class="fa fa-power-off"
                                         aria-hidden="true"></i></a>
                             </li>
                         </ul>
