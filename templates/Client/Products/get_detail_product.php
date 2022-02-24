@@ -2732,7 +2732,7 @@ $this->layout = 'null';
                                 let value = $('#valiationSelect').val()
                                 // console.log(11111111111111111111111111111111111);
                                 let quantity = 1;
-                                    $.ajax(`http://aml-cakephp.herokuapp.com/client/productDetails/product_details.json?id=${value}`, {
+                                    $.ajax(`https://aml-cakephp.herokuapp.com/client/productDetails/product_details.json?id=${value}`, {
                                         type: 'GET',  // http method
                                         dataType: 'json', 
                                         data: { myData: 'This is my data.' },  // data to submit
@@ -2767,7 +2767,7 @@ $this->layout = 'null';
                                             id = $(this).val();
                                             let arr1 = [];
                                             $('.price_value').html("")
-                                            $.ajax(`http://aml-cakephp.herokuapp.com/client/productDetails/product_details.json?id=${id}`, {
+                                            $.ajax(`https://aml-cakephp.herokuapp.com/client/productDetails/product_details.json?id=${id}`, {
                                                 type: 'GET',  // http method
                                                 dataType: 'json', 
                                                 data: { myData: 'This is my data.' },  // data to submit

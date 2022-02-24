@@ -2535,8 +2535,8 @@ $this->layout = 'null';
 		<script>
     $(document).ready(function() {
         let arr = [];
-        let page = 1; // http://aml-cakephp.herokuapp.com/client/
-            $.ajax(`http://aml-cakephp.herokuapp.com/client/products.json?page=${page}`, {
+        let page = 1; // https://aml-cakephp.herokuapp.com/client/
+            $.ajax(`https://aml-cakephp.herokuapp.com/client/products.json?page=${page}`, {
                 type: 'GET',  // http method
                 dataType: 'json', 
                 data: { myData: 'This is my data.' },  // data to submit
@@ -2576,7 +2576,7 @@ $this->layout = 'null';
             });
         $('.more_btn').on('click',function(){
             
-            $.ajax(`http://aml-cakephp.herokuapp.com/client/products.json?page=${page}`, {
+            $.ajax(`https://aml-cakephp.herokuapp.com/client/products.json?page=${page}`, {
                 type: 'GET',  // http method
                 dataType: 'json', 
                 data: { myData: 'This is my data.' },  // data to submit
