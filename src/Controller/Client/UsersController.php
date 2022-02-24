@@ -67,7 +67,7 @@ class UsersController extends AppController
                 $mailer->setFrom(['smilehome.hachinet@gmail.com' => 'Ha Trang'])
                         ->setTo($user->email)
                         ->setSubject('Forgot Pass')
-                        ->deliver('http://aml-cakephp.herokuapp.com/client/do_forgot_pass?token='.$token);
+                        ->deliver('http://cakephp.local:81/client/do_forgot_pass?token='.$token);
                         $this->Flash->success("A link has been sent to your email, please check your email");
 
             }else{
