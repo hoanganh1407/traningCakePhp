@@ -68,6 +68,7 @@ class UsersController extends AppController
             $user_arr = $this->request->getData();
             // dd($user_arr);
             $user_arr['id'] = Text::uuid();
+            dd($user_arr);
             // $user_arr['password'] = Security::hash($user_arr['password']);
             // dd($user_arr);
             // dd($user);
