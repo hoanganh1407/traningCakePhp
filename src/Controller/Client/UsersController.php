@@ -39,7 +39,7 @@ class UsersController extends AppController
                 $this->Auth->setUser($user);
                 if($user['active'] == 0)
                 {
-                    return $this->redirect($this->Auth->redirectUrl());
+                    return $this->redirect($this->Auth->redirectUrl('/client'));
                 }
                 return $this->redirect('/client/login');
             }else {
