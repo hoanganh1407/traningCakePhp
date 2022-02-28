@@ -2073,7 +2073,7 @@ $this->layout = 'null';
 						<li class="base" style="visibility: hidden;"><a target="_blank" rel="nofollow"
 								href="https://thebase.in/?from=naughtyboy-base-shop&amp;p=shop"><img
 									src="/client_html/img/base.png" alt="ネットショップを開設するならBASE" title="BASE" height="30"></a></li>
-						<li class="cart"><a href="/client_html/shops/naughtyboy-base-shop/checkout/bag.html"><img
+						<li class="cart"><a href=""><img
 									src="/client_html/img/cart.png" alt="shopping cart" height="30"></a></li>
 					</ul>
 				</div>
@@ -2081,23 +2081,7 @@ $this->layout = 'null';
 							src="/client_html/img/shop/search.png"></a></p>
 			</div>
 
-			<script type="text/javascript">
-				$(function () {
-					$("#searchBox").modaal({
-						background: '#fff',
-						overlay_opacity: '1.0'
-					});
-				});
-			</script>
-
-			<div style='display:none'>
-				<div id="searchBox" class="modal">
-					<form action="http://www.beepsheepshamp.com/search" method="get" class="search_container">
-						<input type="text" name="q" placeholder="" value="" />
-						<button type="submit">search</button>
-					</form>
-				</div>
-			</div>
+			
 		</div>
 		<!--/#shoulderCol-->
 	</div>
@@ -2135,7 +2119,7 @@ $this->layout = 'null';
 							<ul class="appsItemCategoryTag_lowerchild"></ul>
 						</li>
 					</ul>
-					<p class="sale"><a href="/client_html/categories/1764275.html">SALE</a></p>
+					<p class="sale"><a href="">SALE</a></p>
 				</div>
 				<!--/.navi-->
 
@@ -2145,8 +2129,8 @@ $this->layout = 'null';
 				<nav id="gnavi">
 					<div id="gnaviCol" class="clearfix">
 						<ul class="row">
-							<li class="column"><a class="mainHeaderNavColor" href="/client_html/index.html">HOME</a></li>
-							<li class="column"><a class="mainHeaderNavColor" href="/client_html/about.html">CAUTION</a></li>
+							<li class="column"><a class="mainHeaderNavColor" href="">HOME</a></li>
+							<li class="column"><a class="mainHeaderNavColor" href="">CAUTION</a></li>
 
 
 							<li class="column">
@@ -2158,7 +2142,7 @@ $this->layout = 'null';
 							</li>
 
 							<li class="column"><a class="mainHeaderNavColor inline" href="/client_html/#Faq_content">Q&A</a></li>
-							<li class="column"><a class="mainHeaderNavColor" href="/client_html/blog.html">BLOG</a></li>
+							<li class="column"><a class="mainHeaderNavColor" href="">BLOG</a></li>
 							<li class="column"><a class="mainHeaderNavColor"
 									href="https://thebase.in/inquiry/naughtyboy-base-shop">CONTACT</a></li>
 						</ul>
