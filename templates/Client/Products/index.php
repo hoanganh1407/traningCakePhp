@@ -55,7 +55,6 @@ $this->layout = 'null';
 	<link rel="stylesheet" type="text/css" href="/client_html/css/style.css">
 	<script type="text/javascript" src="/client_html/js/labelpostione11a.js?1639973837024"></script>
 
-	<link rel="next" href="/client_html/index4658.html?page=2">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 
 	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&amp;subset=japanese" rel="stylesheet">
@@ -460,7 +459,7 @@ $this->layout = 'null';
 	<script src="/client_html///dhskp7m6mg2zv.cloudfront.net/theme_assets/shared/js/html5shiv.js"></script>
 	<![endif]-->
 
-	<script type="text/javascript">
+	<!-- <script type="text/javascript">
 		var _gaq = _gaq || [];
 		var gtag = gtag || function () {};
 	</script>
@@ -471,11 +470,11 @@ $this->layout = 'null';
 			'shopTheme': 'my_theme_649',
 			'shopId': 'naughtyboy-base-shop',
 		});
-	</script>
+	</script> -->
 
 
 	<!-- Google Tag Manager for thebase.in-->
-	<noscript><iframe src="http://www.googletagmanager.com/ns.html?id=GTM-5JX8TL" height="0" width="0"
+	<!-- <noscript><iframe src="http://www.googletagmanager.com/ns.html?id=GTM-5JX8TL" height="0" width="0"
 			style="display:none;visibility:hidden"></iframe></noscript>
 	<script>
 		(function (w, d, s, l, i) {
@@ -492,10 +491,10 @@ $this->layout = 'null';
 				'../www.googletagmanager.com/gtm5445.html?id=' + i + dl;
 			f.parentNode.insertBefore(j, f);
 		})(window, document, 'script', 'dataLayer', 'GTM-5JX8TL');
-	</script>
+	</script> -->
 	<!-- End Google Tag Manager -->
 
-	<script type="text/javascript">
+	<!-- <script type="text/javascript">
 		var dataLayer = dataLayer || [];
 		dataLayer.push({
 			"PageType": "Listingpage",
@@ -526,7 +525,7 @@ $this->layout = 'null';
 				"43205155",
 			]
 		});
-	</script>
+	</script> -->
 
 	<!-- Global site tag (gtag.js) -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122256244-1&amp;l=gtagDataLayer"></script>
@@ -2110,11 +2109,11 @@ $this->layout = 'null';
 				</script>
 				<div id="navi">
 					<ul id="appsItemCategoryTag">
-						<li class="appsItemCategoryTag_child mens"><a href="/client_html/categories/1463951.html"
+						<li class="appsItemCategoryTag_child mens"><a href=""
 								class="mainHeaderNavColor">MENS</a>
 							<ul class="appsItemCategoryTag_lowerchild"></ul>
 						</li>
-						<li class="appsItemCategoryTag_child ladies"><a href="/client_html/categories/1463950.html"
+						<li class="appsItemCategoryTag_child ladies"><a href=""
 								class="mainHeaderNavColor">LADIES</a>
 							<ul class="appsItemCategoryTag_lowerchild"></ul>
 						</li>
@@ -2426,12 +2425,12 @@ $this->layout = 'null';
 							class="pc"><img
 							src="/client_html/img/276e3d7048da7ba2df609bf036d87975.png"
 							class="sp"></a></li>
-				<li><a href="/client_html/categories/1463951.html"><img
+				<li><a href=""><img
 							src="/client_html/img/05836a82959c920200c03c0793064a4f.png"
 							class="pc"><img
 							src="/client_html/img/5e7284c0079d8af7465547249c56745f.png"
 							class="sp"></a></li>
-				<li><a href="/client_html/categories/1463950.html"><img
+				<li><a href=""><img
 							src="/client_html/img/ff74471fec6d5a79b84eabd10fed8009.png"
 							class="pc"><img
 							src="/client_html/img/566b13a1aa3971cfdcb2be5f969b87fd.png"
@@ -2630,7 +2629,7 @@ $this->layout = 'null';
 			});
 		</script>
 
-		<script type="text/javascript">
+		<!-- <script type="text/javascript">
 			$(function () {
 				$("#fashionistaCol .slider div:nth-child(1)").load(
 					"categories/1991260.html#products ul.product_list li:nth-child(1) a");
@@ -2649,7 +2648,7 @@ $this->layout = 'null';
 				$("#fashionistaCol .slider div:nth-child(8)").load(
 					"categories/1991260.html#products ul.product_list li:nth-child(8) a");
 			});
-		</script>
+		</script> -->
 
 		<div id="fashionista">
 			<h2 class="ttl"><span><img src="/client_html/img/shop/fashionista_ttl.png"
@@ -2838,8 +2837,8 @@ $this->layout = 'null';
 		</div>
 
 		<ul class="txtList clearfix">
-			<li class="txt"><a href="/client_html/privacy.html">Privacy Policy</a></li>
-			<li class="txt"><a href="/client_html/law.html">Act on Specified Commercial Transactions</a></li>
+			<li class="txt"><a href="">Privacy Policy</a></li>
+			<li class="txt"><a href="">Act on Specified Commercial Transactions</a></li>
 			<li>
 				<div id="i18" class="clearfix">
 					<div class="lang">
@@ -2951,18 +2950,7 @@ $this->layout = 'null';
 		<small class="copyright">© 2019 BEEP.</small>
 	</footer>
 	<input id="base_url" type="hidden" value="index.html" />
-	<script>
-		$(function () {
-			$(".track_outbound").on("click", function (e) {
-				$.get("/trackings/track_outbound", {
-					"from_url": location.href,
-					"to_url": $(this).attr("href"),
-					"user_agent": navigator.userAgent
-				});
-				return true;
-			});
-		});
-	</script>
+	
 	<input id="x_phrases" type="hidden" data-lang="ja"
 		value="{&quot;apps&quot;:{&quot;message&quot;:{&quot;send&quot;:&quot;Send&quot;,&quot;placeholder&quot;:&quot;Type a message here&quot;,&quot;disabled&quot;:&quot;Do not accept messages.&quot;,&quot;maximum_length&quot;:&quot;Please enter your message in 500 characters or less.&quot;,&quot;sending&quot;:&quot;Sending...&quot;,&quot;failed&quot;:&quot;Failed to send a message&quot;,&quot;fatal_error&quot;:&quot;Communication error has occurred,Please reload the page.&quot;,&quot;receive_notifications_title&quot;:&quot;Recieve notifications&quot;,&quot;receive_notifications_body&quot;:&quot;You can receive notifications when shop responded to your messages.&quot;,&quot;receive_notifications_mail&quot;:&quot;E-mail&quot;,&quot;receive_notifications_sms&quot;:&quot;SMS&quot;,&quot;receive_notifications_done&quot;:&quot;Submit&quot;,&quot;complete_notifications_setting_title&quot;:&quot;Completed!&quot;,&quot;complete_notifications_setting_body&quot;:&quot;Will send notifications when shop responded to your message.&quot;}}}"></input>
 	<script type="text/javascript" src="/client_html/asset/shop/BASEshop-c3c1f9f98ce1110964f260e5.js?1640247167"></script>
