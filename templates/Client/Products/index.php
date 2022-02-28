@@ -2405,7 +2405,7 @@ $this->layout = 'null';
 		<!--========================================-->
 		<div id="Mainvisual">
 			<script src="/client_html/js/jquery.bxslider.min.js"></script>
-			<script type="text/javascript">
+			<!-- <script type="text/javascript">
 				$(document).ready(function () {
 					$('.bxslider').bxSlider({
 						auto: true,
@@ -2417,7 +2417,7 @@ $this->layout = 'null';
 						pager: false
 					});
 				});
-			</script>
+			</script> -->
 			<link href="/client_html/css/jquery.bxslider.css" rel="stylesheet">
 			<ul class="bxslider">
 				<li><a href="/client_html/#"><img
@@ -2565,6 +2565,7 @@ $this->layout = 'null';
                 data: { myData: 'This is my data.' },  // data to submit
                 success: function (data, status, xhr) {
                     page = page + 1
+					console.log(page)
                     let html = ""
 					arr = data.products;
                     arr.forEach(obj => {
