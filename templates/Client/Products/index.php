@@ -1,11 +1,6 @@
 <?php
-/**
- * @var \App\View\AppView $this
- * @var \App\Model\Entity\User $user
- */
 $this->layout = 'null';
 ?>
-
 <!DOCTYPE html>
 <html lang="ja">
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />

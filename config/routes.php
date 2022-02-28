@@ -55,7 +55,7 @@ return static function (RouteBuilder $routes) {
         $routes->connect('/logout', ['controller' => 'Users', 'action' => 'logout']);
         $routes->connect('/cart', ['controller' => 'Users', 'action' => 'cart']);
         $routes->connect('/get_cart', ['controller' => 'Users', 'action' => 'getCart']);
-        $routes->connect('/update_pro_cart', ['controller' => 'Users', 'action' => 'update_product']);
+        $routes->connect('/update_pro_cart', ['controller' => 'Users', 'action' => 'updateProduct']);
         $routes->connect('/forgot_password', ['controller' => 'Users', 'action' => 'send_mail']);
         $routes->connect('/do_forgot_pass', ['controller' => 'Users', 'action' => 'forgot_pass']);
         $routes->connect('/get_product_by_id/:id', ['controller' => 'Products', 'action' => 'getProductByCategory'],["pass" => ["id"]]);

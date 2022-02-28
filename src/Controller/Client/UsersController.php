@@ -175,7 +175,7 @@ class UsersController extends AppController
         $this->set(compact('id_user','data','products'));
     }
 
-    public function update_product()
+    public function updateProduct()
     {
         $order_detail = $this->request->getData('order_detail');
         $order_id = $this->request->getData('order_id');
