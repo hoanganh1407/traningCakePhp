@@ -22,7 +22,8 @@ class ProductsController extends AppController
         ];
         $categories = $this->Products->Categories->find()->all();
         $products = $this->paginate($this->Products, ['limit'=>1]);
-        $this->set(compact('products','categories'));
+        $number_product = $this->Products->find()->all()->count();
+        $this->set(compact('products','categories','number_product'));
         $this->viewBuilder()->setOption('serialize', true); //trả ra data json 
     }
 

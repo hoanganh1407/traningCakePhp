@@ -55,6 +55,7 @@ $this->layout = 'null';
 	<link rel="stylesheet" type="text/css" href="/client_html/css/style.css">
 	<script type="text/javascript" src="/client_html/js/labelpostione11a.js?1639973837024"></script>
 
+	<link rel="next" href="/client_html/index4658.html?page=2">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 
 	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&amp;subset=japanese" rel="stylesheet">
@@ -459,7 +460,7 @@ $this->layout = 'null';
 	<script src="/client_html///dhskp7m6mg2zv.cloudfront.net/theme_assets/shared/js/html5shiv.js"></script>
 	<![endif]-->
 
-	<!-- <script type="text/javascript">
+	<script type="text/javascript">
 		var _gaq = _gaq || [];
 		var gtag = gtag || function () {};
 	</script>
@@ -470,11 +471,11 @@ $this->layout = 'null';
 			'shopTheme': 'my_theme_649',
 			'shopId': 'naughtyboy-base-shop',
 		});
-	</script> -->
+	</script>
 
 
 	<!-- Google Tag Manager for thebase.in-->
-	<!-- <noscript><iframe src="http://www.googletagmanager.com/ns.html?id=GTM-5JX8TL" height="0" width="0"
+	<noscript><iframe src="http://www.googletagmanager.com/ns.html?id=GTM-5JX8TL" height="0" width="0"
 			style="display:none;visibility:hidden"></iframe></noscript>
 	<script>
 		(function (w, d, s, l, i) {
@@ -491,10 +492,10 @@ $this->layout = 'null';
 				'../www.googletagmanager.com/gtm5445.html?id=' + i + dl;
 			f.parentNode.insertBefore(j, f);
 		})(window, document, 'script', 'dataLayer', 'GTM-5JX8TL');
-	</script> -->
+	</script>
 	<!-- End Google Tag Manager -->
 
-	<!-- <script type="text/javascript">
+	<script type="text/javascript">
 		var dataLayer = dataLayer || [];
 		dataLayer.push({
 			"PageType": "Listingpage",
@@ -525,7 +526,7 @@ $this->layout = 'null';
 				"43205155",
 			]
 		});
-	</script> -->
+	</script>
 
 	<!-- Global site tag (gtag.js) -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122256244-1&amp;l=gtagDataLayer"></script>
@@ -602,7 +603,7 @@ $this->layout = 'null';
 	<meta name="cot:complementaryColor" content="#000000">
 
 
-	<!-- <script type="text/javascript">
+	<script type="text/javascript">
 		;
 		window.NREUM || (NREUM = {});
 		NREUM.init = {
@@ -1976,7 +1977,7 @@ $this->layout = 'null';
 		}
 		var shopId = 'naughtyboy-base-shop';
 		newrelic.setCustomAttribute("Base.shop_id", shopId);
-	</script> -->
+	</script>
 
 	<link rel="stylesheet" href="/client_html/asset/shop/BASEshop-fa1704d831a85975bac4.css">
 	<meta name="facebook-domain-verification" content="tag4jqzg1avt2vow0aw2aflqgtt434" />
@@ -2072,7 +2073,7 @@ $this->layout = 'null';
 						<li class="base" style="visibility: hidden;"><a target="_blank" rel="nofollow"
 								href="https://thebase.in/?from=naughtyboy-base-shop&amp;p=shop"><img
 									src="/client_html/img/base.png" alt="ネットショップを開設するならBASE" title="BASE" height="30"></a></li>
-						<li class="cart"><a href=""><img
+						<li class="cart"><a href="/client_html/shops/naughtyboy-base-shop/checkout/bag.html"><img
 									src="/client_html/img/cart.png" alt="shopping cart" height="30"></a></li>
 					</ul>
 				</div>
@@ -2080,7 +2081,23 @@ $this->layout = 'null';
 							src="/client_html/img/shop/search.png"></a></p>
 			</div>
 
-			
+			<script type="text/javascript">
+				$(function () {
+					$("#searchBox").modaal({
+						background: '#fff',
+						overlay_opacity: '1.0'
+					});
+				});
+			</script>
+
+			<div style='display:none'>
+				<div id="searchBox" class="modal">
+					<form action="http://www.beepsheepshamp.com/search" method="get" class="search_container">
+						<input type="text" name="q" placeholder="" value="" />
+						<button type="submit">search</button>
+					</form>
+				</div>
+			</div>
 		</div>
 		<!--/#shoulderCol-->
 	</div>
@@ -2109,16 +2126,16 @@ $this->layout = 'null';
 				</script>
 				<div id="navi">
 					<ul id="appsItemCategoryTag">
-						<li class="appsItemCategoryTag_child mens"><a href=""
+						<li class="appsItemCategoryTag_child mens"><a href="/client_html/categories/1463951.html"
 								class="mainHeaderNavColor">MENS</a>
 							<ul class="appsItemCategoryTag_lowerchild"></ul>
 						</li>
-						<li class="appsItemCategoryTag_child ladies"><a href=""
+						<li class="appsItemCategoryTag_child ladies"><a href="/client_html/categories/1463950.html"
 								class="mainHeaderNavColor">LADIES</a>
 							<ul class="appsItemCategoryTag_lowerchild"></ul>
 						</li>
 					</ul>
-					<p class="sale"><a href="">SALE</a></p>
+					<p class="sale"><a href="/client_html/categories/1764275.html">SALE</a></p>
 				</div>
 				<!--/.navi-->
 
@@ -2128,20 +2145,110 @@ $this->layout = 'null';
 				<nav id="gnavi">
 					<div id="gnaviCol" class="clearfix">
 						<ul class="row">
-							<li class="column"><a class="mainHeaderNavColor" href="">HOME</a></li>
-							<li class="column"><a class="mainHeaderNavColor" href="">CAUTION</a></li>
+							<li class="column"><a class="mainHeaderNavColor" href="/client_html/index.html">HOME</a></li>
+							<li class="column"><a class="mainHeaderNavColor" href="/client_html/about.html">CAUTION</a></li>
 
 
 							<li class="column">
 								<div id="category-menu">
 									<span class="mainHeaderNavColor">CATEGORY</span>
 									<div class="category-list">
+										<ul id="appsItemCategoryTag">
+											<!-- 大カテゴリのループ -->
+											<li class="appsItemCategoryTag_child"><a
+													href="/client_html/categories/1803790.html">Weekly Ranking</a>
+											</li>
+											<!-- 大カテゴリのループ -->
+											<li class="appsItemCategoryTag_child"><a
+													href="/client_html/categories/3803574.html">Restock items</a>
+											</li>
+											<!-- 大カテゴリのループ -->
+											<li class="appsItemCategoryTag_child"><a
+													href="/client_html/categories/1991343.html">Category Best10</a>
+											</li>
+											<!-- 大カテゴリのループ -->
+											<li class="appsItemCategoryTag_child"><a
+													href="/client_html/categories/1764275.html">Today 10%OFF</a>
+											</li>
+											<!-- 大カテゴリのループ -->
+											<li class="appsItemCategoryTag_child"><a
+													href="/client_html/categories/2614009.html">FAST</a>
+											</li>
+											<!-- 大カテゴリのループ -->
+											<li class="appsItemCategoryTag_child"><a href="/client_html/categories/1623874.html">Next
+													HIT</a>
+											</li>
+											<!-- 大カテゴリのループ -->
+											<li class="appsItemCategoryTag_child"><a href="/client_html/categories/1612755.html">New
+													Arrivals</a>
+											</li>
+											<!-- 大カテゴリのループ -->
+											<li class="appsItemCategoryTag_child"><a
+													href="/client_html/categories/1463951.html">MENS</a>
+											</li>
+											<!-- 大カテゴリのループ -->
+											<li class="appsItemCategoryTag_child"><a
+													href="/client_html/categories/1463950.html">LADIES</a>
+											</li>
+											<!-- 大カテゴリのループ -->
+											<li class="appsItemCategoryTag_child"><a
+													href="/client_html/categories/1150353.html">Tops</a>
+											</li>
+											<!-- 大カテゴリのループ -->
+											<li class="appsItemCategoryTag_child"><a
+													href="/client_html/categories/1150354.html">Outer</a>
+											</li>
+											<!-- 大カテゴリのループ -->
+											<li class="appsItemCategoryTag_child"><a
+													href="/client_html/categories/1150355.html">Bottoms</a>
+											</li>
+											<!-- 大カテゴリのループ -->
+											<li class="appsItemCategoryTag_child"><a
+													href="/client_html/categories/1150356.html">Set-up</a>
+											</li>
+											<!-- 大カテゴリのループ -->
+											<li class="appsItemCategoryTag_child"><a
+													href="/client_html/categories/1459751.html">Dress</a>
+											</li>
+											<!-- 大カテゴリのループ -->
+											<li class="appsItemCategoryTag_child"><a
+													href="/client_html/categories/1150357.html">Bag</a>
+											</li>
+											<!-- 大カテゴリのループ -->
+											<li class="appsItemCategoryTag_child"><a
+													href="/client_html/categories/1991271.html">Shoes</a>
+											</li>
+											<!-- 大カテゴリのループ -->
+											<li class="appsItemCategoryTag_child"><a
+													href="/client_html/categories/1150358.html">Accessory</a>
+											</li>
+											<!-- 大カテゴリのループ -->
+											<li class="appsItemCategoryTag_child"><a
+													href="/client_html/categories/1991280.html">Other</a>
+											</li>
+											<!-- 大カテゴリのループ -->
+											<li class="appsItemCategoryTag_child"><a
+													href="/client_html/categories/3406564.html">Room-wear</a>
+											</li>
+											<!-- 大カテゴリのループ -->
+											<li class="appsItemCategoryTag_child"><a
+													href="/client_html/categories/1745897.html">~¥5,000</a>
+											</li>
+											<!-- 大カテゴリのループ -->
+											<li class="appsItemCategoryTag_child"><a
+													href="/client_html/categories/1745898.html">¥5,000~</a>
+											</li>
+											<!-- 大カテゴリのループ -->
+											<li class="appsItemCategoryTag_child"><a
+													href="/client_html/categories/1991260.html">FASHIONISTA × BEEP</a>
+											</li>
+										</ul>
 									</div>
 								</div>
 							</li>
 
 							<li class="column"><a class="mainHeaderNavColor inline" href="/client_html/#Faq_content">Q&A</a></li>
-							<li class="column"><a class="mainHeaderNavColor" href="">BLOG</a></li>
+							<li class="column"><a class="mainHeaderNavColor" href="/client_html/blog.html">BLOG</a></li>
 							<li class="column"><a class="mainHeaderNavColor"
 									href="https://thebase.in/inquiry/naughtyboy-base-shop">CONTACT</a></li>
 						</ul>
@@ -2405,7 +2512,7 @@ $this->layout = 'null';
 		<!--========================================-->
 		<div id="Mainvisual">
 			<script src="/client_html/js/jquery.bxslider.min.js"></script>
-			<!-- <script type="text/javascript">
+			<script type="text/javascript">
 				$(document).ready(function () {
 					$('.bxslider').bxSlider({
 						auto: true,
@@ -2417,7 +2524,7 @@ $this->layout = 'null';
 						pager: false
 					});
 				});
-			</script> -->
+			</script>
 			<link href="/client_html/css/jquery.bxslider.css" rel="stylesheet">
 			<ul class="bxslider">
 				<li><a href="/client_html/#"><img
@@ -2425,12 +2532,12 @@ $this->layout = 'null';
 							class="pc"><img
 							src="/client_html/img/276e3d7048da7ba2df609bf036d87975.png"
 							class="sp"></a></li>
-				<li><a href=""><img
+				<li><a href="/client_html/categories/1463951.html"><img
 							src="/client_html/img/05836a82959c920200c03c0793064a4f.png"
 							class="pc"><img
 							src="/client_html/img/5e7284c0079d8af7465547249c56745f.png"
 							class="sp"></a></li>
-				<li><a href=""><img
+				<li><a href="/client_html/categories/1463950.html"><img
 							src="/client_html/img/ff74471fec6d5a79b84eabd10fed8009.png"
 							class="pc"><img
 							src="/client_html/img/566b13a1aa3971cfdcb2be5f969b87fd.png"
@@ -2509,7 +2616,7 @@ $this->layout = 'null';
 						
 						
 					</ul>
-					<p class="more_btn"><span><img
+					<p class="more_btn" id="more_btn"><span><img
 								src="/client_html/img/shop/btn_more.png"
 								alt="view more"></span></p>
 					
@@ -2518,7 +2625,8 @@ $this->layout = 'null';
 		<script>
     $(document).ready(function() {
         let arr = [];
-        let page = 1; // https://aml-cakephp.herokuapp.com/client/
+        let page = 1;
+		let max_page = `<?= ($number_product) ?>`
             $.ajax(`https://aml-cakephp.herokuapp.com/client/products.json?page=${page}`, {
                 type: 'GET',  // http method
                 dataType: 'json', 
@@ -2526,7 +2634,7 @@ $this->layout = 'null';
                 success: function (data, status, xhr) {
                     page = page + 1
                     let html = ""
-                    // console.log(data)
+                    console.log(max_page)
                     arr = data.products;
                     // console.log(arr)
 
@@ -2552,24 +2660,20 @@ $this->layout = 'null';
                     $('.product_list').append(html);
 
                 },
-                    error: function (jqXhr, textStatus, errorMessage) {
-                            $('p').append('Error: ' + errorMessage);
-                        }
-
+                    
             });
         $('.more_btn').on('click',function(){
-            
-            $.ajax(`https://aml-cakephp.herokuapp.com/client/products.json?page=${page}`, {
+
+			if(page <= max_page){
+				$.ajax(`https://aml-cakephp.herokuapp.com/client/products.json?page=${page}`, {
                 type: 'GET',  // http method
                 dataType: 'json', 
                 data: { myData: 'This is my data.' },  // data to submit
                 success: function (data, status, xhr) {
-                    page = page + 1
-					console.log(page)
+					page = page + 1
                     let html = ""
 					arr = data.products;
                     arr.forEach(obj => {
-                        console.log(obj.product_details[0].price)
                            html += `<li class="column">
                                         <a href="/client/product_detail/${obj.id}">
                                             <div class="image_container">
@@ -2588,12 +2692,17 @@ $this->layout = 'null';
                                      </li>`
                     });
                     $('.product_list').append(html);
+					if(page >  max_page){
+						console.log('hết rồiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii')
+						$('.more_btn').html(" ")
+					}
 
                 },
-                    error: function (jqXhr, textStatus, errorMessage) {
-                            $('p').append('Error: ' + errorMessage);
-                        }
+                    
             });
+			}
+            
+            
         });
     });
 </script>
@@ -2630,7 +2739,7 @@ $this->layout = 'null';
 			});
 		</script>
 
-		<!-- <script type="text/javascript">
+		<script type="text/javascript">
 			$(function () {
 				$("#fashionistaCol .slider div:nth-child(1)").load(
 					"categories/1991260.html#products ul.product_list li:nth-child(1) a");
@@ -2649,7 +2758,7 @@ $this->layout = 'null';
 				$("#fashionistaCol .slider div:nth-child(8)").load(
 					"categories/1991260.html#products ul.product_list li:nth-child(8) a");
 			});
-		</script> -->
+		</script>
 
 		<div id="fashionista">
 			<h2 class="ttl"><span><img src="/client_html/img/shop/fashionista_ttl.png"
@@ -2838,8 +2947,8 @@ $this->layout = 'null';
 		</div>
 
 		<ul class="txtList clearfix">
-			<li class="txt"><a href="">Privacy Policy</a></li>
-			<li class="txt"><a href="">Act on Specified Commercial Transactions</a></li>
+			<li class="txt"><a href="/client_html/privacy.html">Privacy Policy</a></li>
+			<li class="txt"><a href="/client_html/law.html">Act on Specified Commercial Transactions</a></li>
 			<li>
 				<div id="i18" class="clearfix">
 					<div class="lang">
@@ -2950,8 +3059,19 @@ $this->layout = 'null';
 
 		<small class="copyright">© 2019 BEEP.</small>
 	</footer>
-	<input id="base_url" type="hidden" value="" />
-	
+	<input id="base_url" type="hidden" value="index.html" />
+	<script>
+		$(function () {
+			$(".track_outbound").on("click", function (e) {
+				$.get("/trackings/track_outbound", {
+					"from_url": location.href,
+					"to_url": $(this).attr("href"),
+					"user_agent": navigator.userAgent
+				});
+				return true;
+			});
+		});
+	</script>
 	<input id="x_phrases" type="hidden" data-lang="ja"
 		value="{&quot;apps&quot;:{&quot;message&quot;:{&quot;send&quot;:&quot;Send&quot;,&quot;placeholder&quot;:&quot;Type a message here&quot;,&quot;disabled&quot;:&quot;Do not accept messages.&quot;,&quot;maximum_length&quot;:&quot;Please enter your message in 500 characters or less.&quot;,&quot;sending&quot;:&quot;Sending...&quot;,&quot;failed&quot;:&quot;Failed to send a message&quot;,&quot;fatal_error&quot;:&quot;Communication error has occurred,Please reload the page.&quot;,&quot;receive_notifications_title&quot;:&quot;Recieve notifications&quot;,&quot;receive_notifications_body&quot;:&quot;You can receive notifications when shop responded to your messages.&quot;,&quot;receive_notifications_mail&quot;:&quot;E-mail&quot;,&quot;receive_notifications_sms&quot;:&quot;SMS&quot;,&quot;receive_notifications_done&quot;:&quot;Submit&quot;,&quot;complete_notifications_setting_title&quot;:&quot;Completed!&quot;,&quot;complete_notifications_setting_body&quot;:&quot;Will send notifications when shop responded to your message.&quot;}}}"></input>
 	<script type="text/javascript" src="/client_html/asset/shop/BASEshop-c3c1f9f98ce1110964f260e5.js?1640247167"></script>
