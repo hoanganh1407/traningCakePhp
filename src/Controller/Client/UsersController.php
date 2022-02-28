@@ -162,7 +162,7 @@ class UsersController extends AppController
 
     }
 
-    public function get_cart()
+    public function getCart()
     {
         $id_user = $this->Auth->user('id');
         $data= $this->getTableLocator()->get('Orders')->find()->contain(['OrderDetails.ProductDetails.AttributeProducts.Attributes'])->where(['user_id'=>$id_user])->first();
