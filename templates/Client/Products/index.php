@@ -2670,7 +2670,11 @@ $this->layout = 'null';
                 dataType: 'json', 
                 data: { myData: 'This is my data.' },  // data to submit
                 success: function (data, status, xhr) {
+<<<<<<< HEAD
 					page = page + 1
+=======
+                    page = page + 1
+>>>>>>> parent of 6a19c92 (ha trang fix index)
                     let html = ""
 					arr = data.products;
                     arr.forEach(obj => {
