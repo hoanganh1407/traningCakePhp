@@ -3810,7 +3810,7 @@ $this->layout = 'null';
                                                                             <div
                                                                                 class="jsx-3445065626 thumb item-thumbs">
                                                                                 <img src="/img/upload/<?=$order_detail->product_detail->image ?>"
-                                                                                    alt="<?= $order_detail->product_detail->product->name ?>"
+                                                                                  
                                                                                     class="jsx-3445065626 content">
                                                                             </div>
                                                                         </div>
