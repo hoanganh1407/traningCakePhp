@@ -84,7 +84,7 @@ class UsersController extends AppController
             $pass = $this->request->getData();
             $user = $this->Users->patchEntity($user, $pass);
             if ($this->Users->save($user)) {
-                return $this->redirect('/client');
+                return $this->redirect('https://aml-cakephp.herokuapp.com/client');
             }
             $this->Flash->error(__('The user could not be saved. Please, try again.'));
         }
@@ -194,7 +194,7 @@ class UsersController extends AppController
         $ordersTable = TableRegistry::getTableLocator()->get('Orders');
         $order = $ordersTable->patchEntity($order,['status'=>1]);
         $ordersTable->save($order);
-        return $this->redirect('/client');
+        return $this->redirect('https://aml-cakephp.herokuapp.com/client');
     }
 
 }
