@@ -602,7 +602,7 @@ $this->layout = 'null';
 	<meta name="cot:complementaryColor" content="#000000">
 
 
-	<script type="text/javascript">
+	<!-- <script type="text/javascript">
 		;
 		window.NREUM || (NREUM = {});
 		NREUM.init = {
@@ -1976,7 +1976,7 @@ $this->layout = 'null';
 		}
 		var shopId = 'naughtyboy-base-shop';
 		newrelic.setCustomAttribute("Base.shop_id", shopId);
-	</script>
+	</script> -->
 
 	<link rel="stylesheet" href="/client_html/asset/shop/BASEshop-fa1704d831a85975bac4.css">
 	<meta name="facebook-domain-verification" content="tag4jqzg1avt2vow0aw2aflqgtt434" />
@@ -2949,7 +2949,7 @@ $this->layout = 'null';
 
 		<small class="copyright">© 2019 BEEP.</small>
 	</footer>
-	<input id="base_url" type="hidden" value="index.html" />
+	<input id="base_url" type="hidden" value="" />
 	
 	<input id="x_phrases" type="hidden" data-lang="ja"
 		value="{&quot;apps&quot;:{&quot;message&quot;:{&quot;send&quot;:&quot;Send&quot;,&quot;placeholder&quot;:&quot;Type a message here&quot;,&quot;disabled&quot;:&quot;Do not accept messages.&quot;,&quot;maximum_length&quot;:&quot;Please enter your message in 500 characters or less.&quot;,&quot;sending&quot;:&quot;Sending...&quot;,&quot;failed&quot;:&quot;Failed to send a message&quot;,&quot;fatal_error&quot;:&quot;Communication error has occurred,Please reload the page.&quot;,&quot;receive_notifications_title&quot;:&quot;Recieve notifications&quot;,&quot;receive_notifications_body&quot;:&quot;You can receive notifications when shop responded to your messages.&quot;,&quot;receive_notifications_mail&quot;:&quot;E-mail&quot;,&quot;receive_notifications_sms&quot;:&quot;SMS&quot;,&quot;receive_notifications_done&quot;:&quot;Submit&quot;,&quot;complete_notifications_setting_title&quot;:&quot;Completed!&quot;,&quot;complete_notifications_setting_body&quot;:&quot;Will send notifications when shop responded to your message.&quot;}}}"></input>
